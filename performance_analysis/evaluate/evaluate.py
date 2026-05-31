@@ -405,7 +405,7 @@ def run_evaluation(args):
         lr_monitor = pl.callbacks.LearningRateMonitor(logging_interval='epoch')
 
         model_checkpointer = pl.callbacks.ModelCheckpoint(save_top_k=1, monitor='valid/strict', dirpath=args.dirpath,
-                                                          filename='{epoch}', mode='max')
+                                                          filename='{epoch}', mode='max', save_on_train_epoch_end=True)
 
         trainer = pl.Trainer(
             accelerator='gpu',
