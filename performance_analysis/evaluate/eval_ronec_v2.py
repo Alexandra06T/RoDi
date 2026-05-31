@@ -10,6 +10,7 @@ import pandas as pd
 class TransformerModel(pl.LightningModule):
     def __init__(self, model_name, tokenizer, lr, lr_factor, lr_patience, model_max_length, bio2tags, tag_list):
         super().__init__()
+        self.validation_step_outputs = []
 
         print("Loading AutoModel [{}] ...".format(model_name))
         self.tokenizer = tokenizer
@@ -65,14 +66,20 @@ class TransformerModel(pl.LightningModule):
                 y_hat.append(pred[pos])
                 y.append(gold[pos])
 
+        self.validation_step_outputs.append({
+            "loss": loss,
+            "y": y,
+            "y_hat": y_hat
+        })
+
         return {
             "loss": loss, 
             "y": y, 
             "y_hat": y_hat
         }
 
-    def validation_epoch_end(self, outputs):
-        odf = pd.DataFrame(outputs)
+    def on_validation_epoch_end(self):
+        odf = pd.DataFrame(self.validation_step_outputs)
 
         mean_val_loss = odf["loss"].mean()
         gold, pred = [], []
@@ -88,6 +95,8 @@ class TransformerModel(pl.LightningModule):
         self.log("valid/partial", results["partial"]["f1"])
         self.log("valid/strict", results["strict"]["f1"])
         self.log("valid/exact", results["exact"]["f1"])
+
+        self.validation_step_outputs.clear()
 
     def test_step(self, batch, batch_idx):
         input_ids = batch["input_ids"]
