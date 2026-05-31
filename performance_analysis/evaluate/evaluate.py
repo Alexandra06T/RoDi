@@ -111,7 +111,7 @@ class TransformerModel(pl.LightningModule):
 
         evaluator = Evaluator(gold, pred, tags=self.tag_list, loader="list")
 
-        results, *_ = evaluator.evaluate()
+        results, _ = evaluator.evaluate()
         self.log("valid/avg_loss", mean_val_loss, prog_bar=True)
         self.log("valid/ent_type", float(results["ent_type"]["f1"]))
         self.log("valid/partial", float(results["partial"]["f1"]))
