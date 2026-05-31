@@ -409,7 +409,8 @@ def run_evaluation(args):
 
         trainer = pl.Trainer(
             accelerator='gpu',
-            devices=1,
+            devices=args.devices,
+            strategy=args.strategy,
             max_epochs=args.max_epochs,
             callbacks=[lr_monitor, early_stop, model_checkpointer],
             accumulate_grad_batches=args.accumulate_grad_batches,
@@ -481,6 +482,8 @@ if __name__ == "__main__":
     parser.add_argument('--lr_patience', type=float, default=5)
     parser.add_argument('--model_max_length', type=int, default=512)
     parser.add_argument('--experiment_iterations', type=int, default=1)
+    parser.add_argument('--devices', type=int, default=1)
+    parser.add_argument('--strategy', type=str, default=None)
 
     args = parser.parse_args()
 
