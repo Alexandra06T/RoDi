@@ -360,7 +360,7 @@ def run_evaluation(
 
     trainer = pl.Trainer(
         # logger=logger,
-        gpus=args.gpus,
+        # gpus=args.gpus,
         max_epochs=args.max_epochs,
         callbacks=[lr_monitor, early_stop, model_checkpointer],
         accumulate_grad_batches=args.accumulate_grad_batches,
