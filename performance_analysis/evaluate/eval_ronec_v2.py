@@ -307,7 +307,7 @@ def run_evaluation(
     bio2tags = dict(bio2tags)
 
     print(f"Dataset contains {len(bio2tags)} BIO2 classes: {bio2tags.values()}.")
-    tags = sorted(list(set([tag[2:] if len(tag)>2 else tag for tag in bio2tags.values()]))) # skip B- and I-
+    tags = sorted(list(set([tag[2:] if isinstance(tag, str) and len(tag)>2 else tag for tag in bio2tags.values()]))) # skip B- and I-
     print(f"\nThere are {len(tags)} classes: {tags}")
         
     # init tokenizer and start loading data
