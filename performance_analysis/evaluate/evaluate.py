@@ -10,6 +10,8 @@ import pandas as pd
 class TransformerModel(pl.LightningModule):
     def __init__(self, model_name, tokenizer, lr, lr_factor, lr_patience, model_max_length, bio2tags, tag_list):
         super().__init__()
+        self.validation_step_outputs = []
+        self.test_step_outputs = []
 
         print("Loading AutoModel [{}] ...".format(model_name))
         self.tokenizer = tokenizer
@@ -86,14 +88,20 @@ class TransformerModel(pl.LightningModule):
                 y_hat.append(pred[pos])
                 y.append(gold[pos])
 
+        self.validation_step_outputs.append({
+            "loss": loss,
+            "y": y,
+            "y_hat": y_hat
+        })
+
         return {
             "loss": loss, 
             "y": y, 
             "y_hat": y_hat
         }
 
-    def validation_epoch_end(self, outputs):
-        odf = pd.DataFrame(outputs)
+    def on_validation_epoch_end(self):
+        odf = pd.DataFrame(self.validation_step_outputs)
 
         mean_val_loss = odf["loss"].mean()
         gold, pred = [], []
@@ -109,6 +117,8 @@ class TransformerModel(pl.LightningModule):
         self.log("valid/partial", float(results["partial"]["f1"]))
         self.log("valid/strict", float(results["strict"]["f1"]), prog_bar=True)
         self.log("valid/exact", float(results["exact"]["f1"]))
+
+        self.validation_step_outputs.clear()
 
     def test_step(self, batch, batch_idx):
         input_ids = batch["input_ids"]
@@ -131,14 +141,20 @@ class TransformerModel(pl.LightningModule):
                 y_hat.append(pred[pos])
                 y.append(gold[pos])
 
+        self.test_step_outputs.append({
+            "loss": loss,
+            "y": y,
+            "y_hat": y_hat
+        })
+
         return {
             "loss": loss, 
             "y": y,
             "y_hat": y_hat
         }
 
-    def test_epoch_end(self, outputs):
-        odf = pd.DataFrame(outputs)
+    def on_test_epoch_end(self):
+        odf = pd.DataFrame(self.test_step_outputs)
         
         mean_val_loss = odf["loss"].mean()
         gold, pred = [], []
@@ -154,6 +170,8 @@ class TransformerModel(pl.LightningModule):
         self.log("test/partial", results["partial"]["f1"])
         self.log("test/strict", results["strict"]["f1"])
         self.log("test/exact", results["exact"]["f1"])
+
+        self.test_step_outputs.clear()
 
     def configure_optimizers(self):
         optimizer = torch.optim.AdamW([p for p in self.parameters() if p.requires_grad], lr=self.lr, eps=1e-08)
@@ -386,11 +404,14 @@ def run_evaluation(args):
 
         lr_monitor = pl.callbacks.LearningRateMonitor(logging_interval='epoch')
 
+        model_checkpointer = pl.callbacks.ModelCheckpoint(save_top_k=1, monitor='valid/strict', dirpath=args.dirpath,
+                                                          filename='{epoch}', mode='max')
+
         trainer = pl.Trainer(
             accelerator='gpu',
             devices=1,
             max_epochs=args.max_epochs,
-            callbacks=[lr_monitor, early_stop],
+            callbacks=[lr_monitor, early_stop, model_checkpointer],
             accumulate_grad_batches=args.accumulate_grad_batches,
             gradient_clip_val=1.0,
             #limit_train_batches=50,
@@ -454,6 +475,7 @@ if __name__ == "__main__":
     parser.add_argument("--train_file", type=str, default="../data/train.json")
     parser.add_argument("--validation_file", type=str, default="../data/valid.json")
     parser.add_argument("--test_file", type=str, default="../data/test.json")
+    parser.add_argument("--dirpath", type=str, default=None)
     parser.add_argument('--lr', type=float, default=2e-05)
     parser.add_argument('--lr_factor', type=float, default=2/3)
     parser.add_argument('--lr_patience', type=float, default=5)
