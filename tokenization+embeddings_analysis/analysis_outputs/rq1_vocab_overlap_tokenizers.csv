@@ -1,0 +1,5 @@
+model,display,family,vocab_nd,vocab_d,shared,only_nd,only_d,overlap_pct,mean_jaccard,std_jaccard
+mbert,mBERT,Multilingual,12046,11662,11113,933,549,88.23,0.6235,0.1583
+xlmr,XLM-R,Multilingual,16329,15881,14756,1573,1125,84.54,0.6141,0.1605
+ro_bert,RO-BERT,Monolingual,22584,28269,20033,2551,8236,65.0,0.5997,0.1641
+robert,RoBERT,Monolingual,16541,19612,15045,1496,4567,71.28,0.6406,0.16
