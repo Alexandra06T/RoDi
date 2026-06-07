@@ -1,0 +1,2464 @@
+sent_id,error_type,gold_class,pred_class,gold_span,pred_span
+1,wrong_boundary,DATETIME,DATETIME,"(26, 30)","(26, 27)"
+4,wrong_type,EVENT,ORG,"(3, 4)","(3, 4)"
+4,wrong_type,EVENT,ORG,"(35, 36)","(35, 36)"
+4,wrong_type,EVENT,ORG,"(27, 28)","(27, 28)"
+4,wrong_type,EVENT,ORG,"(82, 83)","(82, 83)"
+4,wrong_type,EVENT,ORG,"(79, 80)","(79, 80)"
+4,wrong_type,EVENT,ORG,"(48, 61)","(48, 61)"
+6,wrong_boundary,PERSON,PERSON,"(37, 39)","(37, 37)"
+8,wrong_boundary,WORK_OF_ART,WORK_OF_ART,"(4, 20)","(4, 4)"
+8,missed,WORK_OF_ART,O,"(22, 26)",
+8,missed,DATETIME,O,"(28, 30)",
+9,wrong_boundary,DATETIME,DATETIME,"(3, 4)","(3, 3)"
+10,missed,PERSON,O,"(62, 64)",
+10,spurious,O,PERSON,,"(56, 57)"
+10,spurious,O,PERSON,,"(66, 66)"
+17,wrong_boundary,PERIOD,PERIOD,"(17, 21)","(17, 18)"
+17,wrong_boundary,NAT_REL_POL,NAT_REL_POL,"(81, 82)","(81, 81)"
+17,wrong_boundary,NAT_REL_POL,NAT_REL_POL,"(203, 205)","(203, 204)"
+17,missed,NAT_REL_POL,O,"(12, 12)",
+17,missed,WORK_OF_ART,O,"(27, 34)",
+17,missed,NAT_REL_POL,O,"(63, 63)",
+17,missed,QUANTITY,O,"(99, 101)",
+17,missed,QUANTITY,O,"(104, 106)",
+17,missed,WORK_OF_ART,O,"(165, 178)",
+17,spurious,O,PERSON,,"(72, 72)"
+17,spurious,O,PERSON,,"(73, 73)"
+17,spurious,O,NUMERIC,,"(99, 99)"
+17,spurious,O,NUMERIC,,"(104, 104)"
+19,spurious,O,PERSON,,"(57, 57)"
+22,missed,PERIOD,O,"(10, 14)",
+23,wrong_type,ORG,EVENT,"(46, 48)","(46, 48)"
+23,missed,NUMERIC,O,"(13, 13)",
+23,missed,ORG,O,"(33, 35)",
+23,spurious,O,QUANTITY,,"(13, 15)"
+25,missed,ORG,O,"(25, 26)",
+29,wrong_type,GPE,FACILITY,"(8, 8)","(8, 8)"
+29,wrong_type,LOC,GPE,"(32, 34)","(32, 34)"
+29,wrong_type,GPE,FACILITY,"(10, 14)","(10, 14)"
+29,wrong_type,GPE,FACILITY,"(9, 9)","(9, 9)"
+29,wrong_boundary,GPE,GPE,"(57, 58)","(57, 57)"
+29,missed,DATETIME,O,"(49, 54)",
+29,spurious,O,FACILITY,,"(4, 5)"
+31,wrong_boundary,DATETIME,DATETIME,"(21, 40)","(21, 22)"
+31,spurious,O,DATETIME,,"(27, 27)"
+31,spurious,O,DATETIME,,"(28, 28)"
+31,spurious,O,DATETIME,,"(29, 29)"
+31,spurious,O,NUMERIC,,"(35, 35)"
+31,spurious,O,NUMERIC,,"(36, 38)"
+34,missed,EVENT,O,"(6, 9)",
+35,missed,ORDINAL,O,"(2, 3)",
+35,missed,PERSON,O,"(39, 39)",
+35,spurious,O,DATETIME,,"(2, 4)"
+35,spurious,O,NAT_REL_POL,,"(49, 49)"
+35,spurious,O,NAT_REL_POL,,"(50, 50)"
+35,spurious,O,NAT_REL_POL,,"(51, 53)"
+36,spurious,O,PERSON,,"(13, 13)"
+36,spurious,O,ORDINAL,,"(60, 60)"
+38,spurious,O,EVENT,,"(55, 57)"
+39,spurious,O,PERSON,,"(5, 10)"
+42,wrong_boundary,ORG,ORG,"(48, 58)","(56, 58)"
+46,spurious,O,PERSON,,"(25, 25)"
+46,spurious,O,PERSON,,"(33, 33)"
+47,missed,LOC,O,"(25, 26)",
+47,spurious,O,PERSON,,"(44, 44)"
+52,wrong_boundary,PERSON,PERSON,"(34, 35)","(34, 37)"
+52,wrong_boundary,PERSON,PERSON,"(38, 44)","(38, 40)"
+52,spurious,O,GPE,,"(41, 41)"
+52,spurious,O,GPE,,"(42, 44)"
+54,wrong_boundary,PERSON,PERSON,"(13, 15)","(13, 13)"
+54,wrong_boundary,LOC,LOC,"(33, 37)","(33, 33)"
+54,wrong_boundary,DATETIME,DATETIME,"(40, 43)","(40, 40)"
+55,wrong_type,GPE,ORG,"(8, 8)","(8, 8)"
+55,wrong_type,GPE,ORG,"(9, 9)","(9, 9)"
+55,missed,NUMERIC,O,"(25, 27)",
+55,missed,GPE,O,"(28, 31)",
+55,spurious,O,FACILITY,,"(24, 31)"
+56,missed,DATETIME,O,"(31, 31)",
+56,missed,EVENT,O,"(33, 33)",
+56,missed,ORG,O,"(41, 44)",
+56,missed,ORG,O,"(48, 48)",
+56,missed,ORG,O,"(49, 50)",
+56,spurious,O,GPE,,"(43, 43)"
+56,spurious,O,NAT_REL_POL,,"(50, 50)"
+59,wrong_type,DATETIME,NUMERIC,"(120, 120)","(120, 120)"
+59,wrong_boundary,NAT_REL_POL,NAT_REL_POL,"(60, 60)","(60, 64)"
+59,missed,NAT_REL_POL,O,"(63, 64)",
+64,missed,PERSON,O,"(77, 77)",
+65,missed,PERSON,O,"(8, 8)",
+65,missed,PERSON,O,"(9, 9)",
+65,missed,EVENT,O,"(13, 13)",
+65,missed,EVENT,O,"(14, 14)",
+65,missed,EVENT,O,"(15, 15)",
+65,missed,EVENT,O,"(16, 17)",
+69,missed,DATETIME,O,"(24, 25)",
+72,spurious,O,PERSON,,"(32, 32)"
+72,spurious,O,PERSON,,"(33, 33)"
+72,spurious,O,PERSON,,"(34, 35)"
+74,wrong_boundary,DATETIME,DATETIME,"(47, 51)","(47, 50)"
+74,wrong_boundary,DATETIME,DATETIME,"(73, 80)","(73, 73)"
+74,missed,GPE,O,"(94, 94)",
+74,spurious,O,DATETIME,,"(76, 80)"
+78,missed,PERSON,O,"(28, 30)",
+79,wrong_boundary,LOC,LOC,"(31, 48)","(31, 47)"
+80,wrong_boundary,GPE,GPE,"(12, 20)","(13, 13)"
+80,wrong_boundary,GPE,GPE,"(45, 52)","(46, 52)"
+80,spurious,O,GPE,,"(14, 20)"
+81,missed,FACILITY,O,"(21, 21)",
+81,missed,FACILITY,O,"(22, 39)",
+81,spurious,O,LOC,,"(33, 36)"
+81,spurious,O,GPE,,"(38, 39)"
+82,wrong_boundary,EVENT,EVENT,"(53, 54)","(53, 53)"
+82,spurious,O,LOC,,"(54, 54)"
+84,missed,FACILITY,O,"(33, 37)",
+84,missed,NAT_REL_POL,O,"(40, 43)",
+84,missed,ORG,O,"(46, 49)",
+84,missed,NAT_REL_POL,O,"(93, 96)",
+85,spurious,O,WORK_OF_ART,,"(4, 5)"
+87,missed,PERSON,O,"(37, 39)",
+88,spurious,O,PERSON,,"(4, 4)"
+90,wrong_type,PERSON,NAT_REL_POL,"(70, 70)","(70, 70)"
+90,wrong_type,LOC,GPE,"(41, 44)","(41, 44)"
+90,wrong_type,LOC,GPE,"(40, 40)","(40, 40)"
+90,missed,LOC,O,"(33, 36)",
+90,spurious,O,GPE,,"(33, 34)"
+94,missed,EVENT,O,"(4, 13)",
+94,spurious,O,GPE,,"(11, 13)"
+95,wrong_boundary,PERSON,PERSON,"(25, 31)","(25, 27)"
+96,missed,NUMERIC,O,"(30, 34)",
+96,spurious,O,DATETIME,,"(31, 31)"
+96,spurious,O,DATETIME,,"(32, 32)"
+97,wrong_type,NUMERIC,QUANTITY,"(62, 63)","(62, 63)"
+97,missed,QUANTITY,O,"(53, 54)",
+97,spurious,O,NUMERIC,,"(53, 53)"
+100,wrong_boundary,PERSON,PERSON,"(22, 22)","(20, 22)"
+100,wrong_boundary,PERSON,PERSON,"(53, 55)","(53, 53)"
+100,missed,ORG,O,"(48, 51)",
+100,spurious,O,ORDINAL,,"(54, 55)"
+102,spurious,O,PERSON,,"(3, 3)"
+103,missed,DATETIME,O,"(23, 24)",
+106,missed,LOC,O,"(27, 41)",
+106,spurious,O,FACILITY,,"(27, 28)"
+111,spurious,O,PERSON,,"(12, 12)"
+114,spurious,O,NUMERIC,,"(19, 19)"
+119,wrong_boundary,PERSON,PERSON,"(9, 10)","(9, 9)"
+121,wrong_boundary,PERSON,PERSON,"(42, 43)","(43, 43)"
+121,wrong_boundary,PERSON,PERSON,"(56, 58)","(56, 61)"
+121,missed,PERSON,O,"(39, 39)",
+121,missed,PERSON,O,"(40, 40)",
+121,missed,PERSON,O,"(41, 41)",
+121,missed,PERSON,O,"(60, 60)",
+121,missed,PERSON,O,"(61, 61)",
+122,wrong_boundary,PERSON,PERSON,"(48, 49)","(48, 51)"
+122,missed,PERSON,O,"(50, 51)",
+123,missed,WORK_OF_ART,O,"(2, 3)",
+123,missed,WORK_OF_ART,O,"(7, 9)",
+123,missed,WORK_OF_ART,O,"(11, 13)",
+123,missed,WORK_OF_ART,O,"(15, 22)",
+123,missed,WORK_OF_ART,O,"(24, 31)",
+123,missed,WORK_OF_ART,O,"(33, 40)",
+123,missed,WORK_OF_ART,O,"(51, 51)",
+123,missed,WORK_OF_ART,O,"(52, 56)",
+123,missed,WORK_OF_ART,O,"(58, 62)",
+123,missed,WORK_OF_ART,O,"(65, 72)",
+123,spurious,O,DATETIME,,"(61, 62)"
+124,missed,EVENT,O,"(20, 22)",
+126,missed,ORG,O,"(10, 11)",
+128,wrong_type,LOC,GPE,"(80, 86)","(80, 86)"
+128,wrong_type,LOC,GPE,"(79, 79)","(79, 79)"
+128,missed,EVENT,O,"(66, 73)",
+134,missed,ORG,O,"(13, 23)",
+134,spurious,O,GPE,,"(20, 20)"
+135,wrong_boundary,WORK_OF_ART,WORK_OF_ART,"(11, 24)","(11, 15)"
+135,spurious,O,WORK_OF_ART,,"(16, 16)"
+135,spurious,O,WORK_OF_ART,,"(17, 17)"
+135,spurious,O,WORK_OF_ART,,"(18, 24)"
+136,spurious,O,PERSON,,"(34, 34)"
+138,missed,ORG,O,"(47, 48)",
+140,wrong_type,GPE,PERSON,"(19, 19)","(19, 19)"
+140,missed,GPE,O,"(20, 22)",
+140,spurious,O,DATETIME,,"(2, 2)"
+140,spurious,O,PERSON,,"(20, 21)"
+141,missed,NAT_REL_POL,O,"(26, 26)",
+141,missed,NAT_REL_POL,O,"(40, 41)",
+142,wrong_boundary,PERSON,PERSON,"(16, 16)","(16, 19)"
+142,wrong_boundary,LOC,LOC,"(31, 31)","(29, 32)"
+142,missed,LOC,O,"(32, 32)",
+143,missed,ORG,O,"(9, 10)",
+143,spurious,O,NAT_REL_POL,,"(10, 10)"
+144,missed,ORDINAL,O,"(14, 14)",
+144,missed,ORDINAL,O,"(18, 18)",
+144,spurious,O,PERSON,,"(37, 37)"
+147,missed,PERSON,O,"(23, 25)",
+150,wrong_boundary,ORG,ORG,"(85, 100)","(85, 90)"
+150,spurious,O,ORG,,"(93, 100)"
+152,wrong_boundary,PERSON,PERSON,"(4, 10)","(4, 5)"
+152,spurious,O,PERSON,,"(7, 10)"
+153,wrong_type,FACILITY,ORG,"(22, 26)","(22, 26)"
+153,wrong_type,FACILITY,ORG,"(21, 21)","(21, 21)"
+153,spurious,O,EVENT,,"(2, 2)"
+153,spurious,O,EVENT,,"(3, 3)"
+154,wrong_boundary,FACILITY,FACILITY,"(3, 7)","(3, 5)"
+154,wrong_boundary,DATETIME,DATETIME,"(9, 17)","(9, 13)"
+154,missed,WORK_OF_ART,O,"(22, 24)",
+154,spurious,O,GPE,,"(7, 7)"
+154,spurious,O,PERSON,,"(23, 24)"
+156,spurious,O,PERSON,,"(52, 52)"
+156,spurious,O,PERSON,,"(53, 53)"
+156,spurious,O,PERSON,,"(54, 54)"
+156,spurious,O,PERSON,,"(55, 55)"
+156,spurious,O,PERSON,,"(56, 56)"
+156,spurious,O,PERSON,,"(57, 57)"
+159,wrong_boundary,DATETIME,DATETIME,"(54, 55)","(54, 54)"
+159,missed,ORG,O,"(11, 12)",
+160,missed,EVENT,O,"(23, 24)",
+160,spurious,O,PERSON,,"(38, 39)"
+162,wrong_boundary,PERSON,PERSON,"(12, 12)","(12, 15)"
+165,wrong_boundary,ORG,ORG,"(10, 14)","(10, 16)"
+165,missed,GPE,O,"(16, 16)",
+166,wrong_type,NAT_REL_POL,PERSON,"(17, 19)","(17, 19)"
+166,wrong_boundary,PERSON,PERSON,"(82, 86)","(82, 82)"
+166,spurious,O,PERSON,,"(55, 55)"
+166,spurious,O,PERSON,,"(83, 83)"
+166,spurious,O,PERSON,,"(84, 86)"
+168,wrong_boundary,ORG,ORG,"(59, 60)","(59, 59)"
+172,missed,WORK_OF_ART,O,"(7, 7)",
+172,missed,WORK_OF_ART,O,"(8, 17)",
+172,missed,WORK_OF_ART,O,"(59, 64)",
+172,spurious,O,ORG,,"(59, 63)"
+174,wrong_boundary,FACILITY,FACILITY,"(22, 27)","(25, 27)"
+174,missed,FACILITY,O,"(21, 21)",
+176,wrong_type,LOC,FACILITY,"(14, 16)","(14, 16)"
+177,missed,PERSON,O,"(16, 16)",
+179,wrong_boundary,ORDINAL,ORDINAL,"(39, 40)","(39, 39)"
+179,missed,LANGUAGE,O,"(51, 51)",
+182,missed,DATETIME,O,"(10, 11)",
+186,missed,NAT_REL_POL,O,"(20, 29)",
+186,spurious,O,PERSON,,"(20, 27)"
+187,missed,DATETIME,O,"(55, 55)",
+188,missed,PERSON,O,"(43, 43)",
+188,missed,PERSON,O,"(44, 45)",
+192,missed,DATETIME,O,"(36, 37)",
+194,wrong_boundary,PERSON,PERSON,"(13, 16)","(13, 13)"
+194,missed,FACILITY,O,"(33, 41)",
+194,spurious,O,PERSON,,"(15, 16)"
+194,spurious,O,EVENT,,"(37, 41)"
+196,wrong_type,NAT_REL_POL,LANGUAGE,"(13, 14)","(13, 14)"
+196,wrong_type,NAT_REL_POL,LANGUAGE,"(23, 23)","(23, 23)"
+196,wrong_type,NAT_REL_POL,LANGUAGE,"(16, 16)","(16, 16)"
+196,wrong_type,NAT_REL_POL,LANGUAGE,"(26, 27)","(26, 27)"
+196,wrong_type,NAT_REL_POL,LANGUAGE,"(25, 25)","(25, 25)"
+196,wrong_type,NAT_REL_POL,LANGUAGE,"(20, 20)","(20, 20)"
+196,wrong_type,NAT_REL_POL,LANGUAGE,"(18, 18)","(18, 18)"
+196,wrong_boundary,NAT_REL_POL,NAT_REL_POL,"(9, 11)","(9, 9)"
+197,wrong_type,PERSON,NAT_REL_POL,"(112, 112)","(112, 112)"
+197,wrong_type,PERSON,NAT_REL_POL,"(113, 114)","(113, 114)"
+197,missed,PERSON,O,"(16, 17)",
+197,missed,WORK_OF_ART,O,"(136, 141)",
+197,missed,WORK_OF_ART,O,"(201, 205)",
+197,spurious,O,WORK_OF_ART,,"(11, 18)"
+198,missed,LOC,O,"(31, 31)",
+198,missed,LOC,O,"(32, 34)",
+205,missed,PERSON,O,"(2, 2)",
+208,missed,DATETIME,O,"(3, 5)",
+212,missed,NAT_REL_POL,O,"(30, 30)",
+212,missed,NAT_REL_POL,O,"(31, 31)",
+212,spurious,O,PERSON,,"(174, 174)"
+213,wrong_type,GPE,LOC,"(14, 14)","(14, 14)"
+215,wrong_boundary,MONEY,MONEY,"(21, 28)","(21, 21)"
+217,missed,EVENT,O,"(18, 23)",
+221,missed,NUMERIC,O,"(24, 24)",
+223,wrong_type,GPE,PERSON,"(85, 86)","(85, 86)"
+223,missed,GPE,O,"(57, 59)",
+223,spurious,O,PERSON,,"(97, 97)"
+228,wrong_type,FACILITY,ORG,"(27, 30)","(27, 30)"
+228,wrong_type,FACILITY,ORG,"(26, 26)","(26, 26)"
+230,wrong_boundary,EVENT,EVENT,"(15, 17)","(15, 20)"
+230,missed,GPE,O,"(20, 20)",
+232,spurious,O,PERSON,,"(45, 49)"
+232,spurious,O,PERSON,,"(51, 51)"
+232,spurious,O,WORK_OF_ART,,"(53, 55)"
+233,wrong_boundary,PERSON,PERSON,"(5, 6)","(5, 5)"
+234,wrong_boundary,ORG,ORG,"(68, 68)","(68, 69)"
+234,missed,LOC,O,"(8, 11)",
+234,missed,GPE,O,"(69, 69)",
+234,spurious,O,PERSON,,"(2, 2)"
+234,spurious,O,GPE,,"(9, 9)"
+234,spurious,O,GPE,,"(11, 11)"
+235,wrong_boundary,DATETIME,DATETIME,"(40, 41)","(38, 40)"
+235,missed,ORDINAL,O,"(38, 39)",
+238,wrong_boundary,LOC,LOC,"(39, 40)","(39, 39)"
+240,missed,NAT_REL_POL,O,"(15, 15)",
+240,missed,NAT_REL_POL,O,"(16, 16)",
+240,missed,NAT_REL_POL,O,"(17, 18)",
+241,missed,PERSON,O,"(33, 36)",
+241,spurious,O,EVENT,,"(26, 26)"
+242,spurious,O,GPE,,"(15, 16)"
+245,wrong_boundary,PERSON,PERSON,"(25, 26)","(25, 29)"
+247,wrong_boundary,PERSON,PERSON,"(46, 47)","(46, 51)"
+247,wrong_boundary,PERIOD,PERIOD,"(113, 115)","(113, 114)"
+247,wrong_boundary,FACILITY,FACILITY,"(128, 136)","(128, 128)"
+247,missed,DATETIME,O,"(61, 62)",
+247,missed,PERIOD,O,"(174, 176)",
+247,spurious,O,NAT_REL_POL,,"(73, 74)"
+247,spurious,O,DATETIME,,"(115, 115)"
+247,spurious,O,DATETIME,,"(174, 174)"
+247,spurious,O,DATETIME,,"(176, 176)"
+249,missed,PERSON,O,"(7, 7)",
+249,spurious,O,PERSON,,"(9, 9)"
+251,spurious,O,PERSON,,"(32, 32)"
+252,wrong_boundary,NAT_REL_POL,NAT_REL_POL,"(58, 62)","(60, 60)"
+252,wrong_boundary,NAT_REL_POL,NAT_REL_POL,"(65, 68)","(67, 67)"
+252,missed,PERSON,O,"(103, 103)",
+252,missed,PERSON,O,"(104, 104)",
+252,missed,PERSON,O,"(105, 106)",
+259,wrong_type,ORG,GPE,"(2, 2)","(2, 2)"
+259,wrong_type,LOC,FACILITY,"(14, 15)","(14, 15)"
+259,wrong_boundary,DATETIME,DATETIME,"(8, 11)","(8, 8)"
+260,wrong_type,FACILITY,LOC,"(27, 29)","(27, 29)"
+264,missed,NUMERIC,O,"(77, 77)",
+268,wrong_boundary,PERSON,PERSON,"(7, 11)","(7, 13)"
+269,missed,DATETIME,O,"(45, 47)",
+269,spurious,O,NUMERIC,,"(47, 47)"
+270,wrong_boundary,DATETIME,DATETIME,"(14, 17)","(14, 15)"
+270,spurious,O,GPE,,"(28, 30)"
+272,missed,ORG,O,"(31, 36)",
+273,wrong_boundary,EVENT,EVENT,"(53, 56)","(53, 53)"
+276,wrong_type,PERSON,NAT_REL_POL,"(29, 31)","(29, 31)"
+276,spurious,O,PERSON,,"(2, 2)"
+276,spurious,O,LOC,,"(36, 36)"
+276,spurious,O,LOC,,"(76, 76)"
+276,spurious,O,DATETIME,,"(118, 118)"
+276,spurious,O,PERSON,,"(155, 159)"
+277,spurious,O,PERSON,,"(6, 6)"
+279,wrong_type,DATETIME,PERIOD,"(15, 19)","(15, 19)"
+279,missed,EVENT,O,"(30, 32)",
+279,missed,NAT_REL_POL,O,"(36, 36)",
+280,spurious,O,ORG,,"(13, 18)"
+280,spurious,O,PERSON,,"(19, 19)"
+282,wrong_boundary,FACILITY,FACILITY,"(82, 94)","(82, 82)"
+282,spurious,O,GPE,,"(11, 12)"
+285,missed,PERSON,O,"(18, 18)",
+288,wrong_boundary,LOC,LOC,"(42, 58)","(43, 48)"
+288,missed,LOC,O,"(68, 76)",
+288,spurious,O,LOC,,"(50, 55)"
+288,spurious,O,LOC,,"(57, 58)"
+288,spurious,O,GPE,,"(71, 74)"
+289,spurious,O,PERSON,,"(71, 71)"
+290,missed,ORG,O,"(24, 34)",
+291,missed,PERSON,O,"(23, 23)",
+292,spurious,O,ORG,,"(74, 82)"
+292,spurious,O,ORG,,"(84, 94)"
+292,spurious,O,ORG,,"(97, 104)"
+292,spurious,O,ORG,,"(106, 110)"
+295,wrong_type,MONEY,NUMERIC,"(14, 14)","(14, 14)"
+295,missed,MONEY,O,"(16, 17)",
+295,spurious,O,NUMERIC,,"(16, 16)"
+296,wrong_boundary,ORG,ORG,"(17, 35)","(17, 26)"
+296,spurious,O,ORG,,"(29, 35)"
+298,missed,ORG,O,"(21, 26)",
+298,missed,WORK_OF_ART,O,"(32, 44)",
+298,missed,WORK_OF_ART,O,"(61, 69)",
+298,missed,ORDINAL,O,"(157, 158)",
+298,spurious,O,NAT_REL_POL,,"(26, 26)"
+298,spurious,O,PERSON,,"(64, 65)"
+299,missed,EVENT,O,"(16, 23)",
+299,missed,WORK_OF_ART,O,"(53, 62)",
+299,spurious,O,PERSON,,"(62, 62)"
+302,missed,ORG,O,"(16, 21)",
+302,missed,LOC,O,"(55, 55)",
+304,missed,ORDINAL,O,"(3, 3)",
+304,missed,ORG,O,"(29, 38)",
+307,spurious,O,ORG,,"(12, 13)"
+308,spurious,O,PERSON,,"(2, 2)"
+308,spurious,O,PERSON,,"(3, 3)"
+309,missed,DATETIME,O,"(11, 14)",
+309,spurious,O,PERSON,,"(39, 39)"
+309,spurious,O,PERSON,,"(40, 40)"
+309,spurious,O,PERSON,,"(41, 41)"
+309,spurious,O,PERSON,,"(110, 111)"
+311,wrong_type,WORK_OF_ART,ORG,"(20, 21)","(20, 21)"
+311,missed,WORK_OF_ART,O,"(34, 38)",
+311,spurious,O,ORG,,"(33, 38)"
+312,wrong_boundary,PERSON,PERSON,"(4, 8)","(4, 6)"
+312,spurious,O,PERSON,,"(7, 8)"
+313,wrong_type,WORK_OF_ART,ORG,"(21, 27)","(21, 27)"
+313,missed,LANGUAGE,O,"(16, 16)",
+313,missed,LANGUAGE,O,"(17, 17)",
+313,missed,LANGUAGE,O,"(18, 18)",
+313,missed,LANGUAGE,O,"(19, 20)",
+313,missed,WORK_OF_ART,O,"(80, 80)",
+313,missed,WORK_OF_ART,O,"(81, 82)",
+313,spurious,O,PERSON,,"(51, 51)"
+315,wrong_boundary,PERIOD,PERIOD,"(6, 9)","(7, 7)"
+318,missed,GPE,O,"(44, 44)",
+318,spurious,O,ORG,,"(36, 42)"
+319,wrong_boundary,WORK_OF_ART,WORK_OF_ART,"(33, 49)","(36, 49)"
+319,missed,ORG,O,"(24, 30)",
+321,missed,EVENT,O,"(3, 3)",
+321,missed,EVENT,O,"(4, 4)",
+321,missed,EVENT,O,"(5, 5)",
+321,missed,EVENT,O,"(6, 11)",
+321,spurious,O,NAT_REL_POL,,"(8, 11)"
+323,wrong_boundary,PERSON,PERSON,"(10, 11)","(10, 14)"
+323,spurious,O,PERSON,,"(4, 4)"
+323,spurious,O,PERSON,,"(22, 24)"
+325,spurious,O,DATETIME,,"(26, 26)"
+326,wrong_type,GPE,LOC,"(98, 107)","(98, 107)"
+326,missed,GPE,O,"(94, 96)",
+326,spurious,O,PERSON,,"(45, 45)"
+333,missed,ORG,O,"(29, 32)",
+335,wrong_type,PERSON,WORK_OF_ART,"(56, 59)","(56, 59)"
+336,wrong_boundary,DATETIME,DATETIME,"(33, 44)","(33, 42)"
+336,missed,FACILITY,O,"(4, 4)",
+336,missed,FACILITY,O,"(5, 18)",
+336,spurious,O,ORG,,"(11, 18)"
+337,missed,EVENT,O,"(50, 50)",
+338,wrong_boundary,DATETIME,DATETIME,"(35, 44)","(37, 37)"
+338,wrong_boundary,PERSON,PERSON,"(138, 138)","(138, 139)"
+338,spurious,O,DATETIME,,"(38, 44)"
+338,spurious,O,DATETIME,,"(81, 81)"
+339,wrong_type,PERSON,NAT_REL_POL,"(45, 47)","(45, 47)"
+339,wrong_boundary,PERSON,PERSON,"(38, 38)","(38, 40)"
+339,missed,ORG,O,"(13, 13)",
+339,spurious,O,PERSON,,"(42, 44)"
+341,wrong_boundary,DATETIME,DATETIME,"(12, 20)","(12, 15)"
+341,wrong_boundary,PERSON,PERSON,"(28, 31)","(28, 30)"
+341,spurious,O,DATETIME,,"(18, 20)"
+342,missed,ORG,O,"(64, 68)",
+342,spurious,O,GPE,,"(68, 68)"
+345,wrong_boundary,LOC,LOC,"(14, 15)","(12, 15)"
+348,wrong_type,FACILITY,ORG,"(21, 23)","(21, 23)"
+351,spurious,O,ORDINAL,,"(21, 21)"
+354,wrong_boundary,EVENT,EVENT,"(68, 75)","(68, 73)"
+354,missed,EVENT,O,"(77, 79)",
+354,spurious,O,EVENT,,"(75, 75)"
+357,missed,EVENT,O,"(81, 88)",
+357,spurious,O,GPE,,"(85, 85)"
+359,missed,PERSON,O,"(33, 34)",
+360,wrong_boundary,ORG,ORG,"(29, 30)","(29, 33)"
+360,missed,ORG,O,"(32, 33)",
+362,wrong_type,NAT_REL_POL,PERSON,"(11, 11)","(11, 11)"
+362,wrong_boundary,PERSON,PERSON,"(34, 35)","(34, 37)"
+362,missed,PERSON,O,"(37, 37)",
+363,wrong_boundary,DATETIME,DATETIME,"(68, 71)","(70, 71)"
+364,wrong_boundary,PERSON,PERSON,"(64, 68)","(64, 67)"
+364,missed,ORG,O,"(33, 36)",
+364,spurious,O,PERSON,,"(68, 68)"
+367,wrong_boundary,PERSON,PERSON,"(46, 50)","(46, 55)"
+367,missed,PERSON,O,"(29, 30)",
+367,missed,GPE,O,"(61, 61)",
+367,missed,GPE,O,"(62, 62)",
+367,missed,GPE,O,"(63, 63)",
+367,missed,GPE,O,"(64, 64)",
+367,missed,GPE,O,"(65, 65)",
+367,missed,GPE,O,"(66, 67)",
+369,missed,ORDINAL,O,"(11, 11)",
+369,spurious,O,DATETIME,,"(3, 4)"
+370,spurious,O,ORG,,"(35, 38)"
+371,wrong_boundary,PERSON,PERSON,"(9, 11)","(9, 9)"
+371,wrong_boundary,PERSON,PERSON,"(23, 23)","(23, 27)"
+371,missed,PERSON,O,"(25, 27)",
+371,spurious,O,PERSON,,"(10, 11)"
+372,missed,DATETIME,O,"(15, 15)",
+372,missed,DATETIME,O,"(16, 16)",
+372,missed,DATETIME,O,"(17, 17)",
+375,spurious,O,PERSON,,"(68, 68)"
+375,spurious,O,PERSON,,"(90, 90)"
+377,missed,NAT_REL_POL,O,"(25, 25)",
+377,spurious,O,PERSON,,"(7, 10)"
+377,spurious,O,GPE,,"(13, 14)"
+378,spurious,O,PERSON,,"(34, 34)"
+379,wrong_type,LOC,FACILITY,"(33, 38)","(33, 38)"
+380,missed,GPE,O,"(24, 24)",
+381,wrong_boundary,ORG,ORG,"(14, 15)","(14, 17)"
+381,missed,GPE,O,"(17, 17)",
+382,missed,DATETIME,O,"(65, 66)",
+382,spurious,O,PERSON,,"(57, 59)"
+388,missed,EVENT,O,"(6, 8)",
+388,missed,PERSON,O,"(10, 10)",
+388,missed,PERSON,O,"(34, 34)",
+390,wrong_boundary,PERSON,PERSON,"(3, 16)","(3, 12)"
+390,spurious,O,PERSON,,"(16, 16)"
+391,wrong_boundary,GPE,GPE,"(41, 41)","(41, 44)"
+391,missed,GPE,O,"(43, 43)",
+391,missed,GPE,O,"(44, 44)",
+391,missed,NAT_REL_POL,O,"(48, 49)",
+391,missed,ORDINAL,O,"(63, 65)",
+391,missed,EVENT,O,"(77, 84)",
+391,missed,EVENT,O,"(90, 99)",
+391,spurious,O,PERSON,,"(46, 46)"
+391,spurious,O,PERSON,,"(47, 49)"
+391,spurious,O,NAT_REL_POL,,"(56, 57)"
+391,spurious,O,DATETIME,,"(84, 84)"
+391,spurious,O,GPE,,"(93, 93)"
+391,spurious,O,DATETIME,,"(95, 95)"
+392,wrong_type,GPE,LOC,"(42, 44)","(42, 44)"
+392,missed,ORDINAL,O,"(47, 47)",
+392,missed,PERSON,O,"(84, 84)",
+392,missed,PERSON,O,"(85, 85)",
+392,missed,PERSON,O,"(86, 86)",
+392,missed,PERSON,O,"(92, 93)",
+393,spurious,O,NAT_REL_POL,,"(11, 17)"
+393,spurious,O,PERSON,,"(19, 25)"
+396,wrong_boundary,PERSON,PERSON,"(4, 4)","(3, 4)"
+398,wrong_type,GPE,PERSON,"(94, 94)","(94, 94)"
+398,wrong_type,GPE,PERSON,"(95, 95)","(95, 95)"
+398,wrong_boundary,LOC,LOC,"(84, 85)","(85, 85)"
+398,missed,NAT_REL_POL,O,"(69, 74)",
+398,missed,GPE,O,"(96, 98)",
+398,spurious,O,PERSON,,"(96, 100)"
+399,wrong_boundary,PERSON,PERSON,"(6, 18)","(6, 12)"
+399,spurious,O,PERSON,,"(14, 18)"
+401,wrong_boundary,PERSON,PERSON,"(50, 50)","(50, 52)"
+401,wrong_boundary,PERSON,PERSON,"(53, 58)","(53, 56)"
+401,spurious,O,GPE,,"(57, 58)"
+403,wrong_boundary,PERSON,PERSON,"(7, 9)","(7, 7)"
+403,missed,GPE,O,"(10, 12)",
+404,missed,GPE,O,"(5, 5)",
+404,missed,GPE,O,"(6, 6)",
+404,spurious,O,FACILITY,,"(3, 6)"
+406,wrong_boundary,ORG,ORG,"(26, 31)","(26, 28)"
+406,spurious,O,GPE,,"(31, 31)"
+407,spurious,O,PERSON,,"(23, 23)"
+407,spurious,O,PERSON,,"(24, 24)"
+407,spurious,O,PERSON,,"(25, 25)"
+409,missed,ORG,O,"(9, 11)",
+409,spurious,O,PERSON,,"(9, 9)"
+409,spurious,O,ORG,,"(14, 14)"
+409,spurious,O,ORG,,"(15, 17)"
+409,spurious,O,PERSON,,"(49, 50)"
+410,missed,PERSON,O,"(68, 68)",
+412,missed,LOC,O,"(27, 32)",
+412,spurious,O,GPE,,"(30, 30)"
+412,spurious,O,GPE,,"(31, 32)"
+414,wrong_boundary,LOC,LOC,"(24, 32)","(24, 27)"
+414,spurious,O,GPE,,"(29, 29)"
+414,spurious,O,GPE,,"(31, 31)"
+415,wrong_type,ORG,FACILITY,"(36, 36)","(36, 36)"
+415,wrong_type,ORG,FACILITY,"(30, 32)","(30, 32)"
+415,wrong_type,ORG,FACILITY,"(29, 29)","(29, 29)"
+415,missed,ORG,O,"(24, 27)",
+415,missed,ORG,O,"(37, 42)",
+415,spurious,O,FACILITY,,"(25, 25)"
+415,spurious,O,FACILITY,,"(26, 26)"
+415,spurious,O,FACILITY,,"(27, 27)"
+415,spurious,O,FACILITY,,"(37, 37)"
+416,missed,DATETIME,O,"(4, 8)",
+417,missed,GPE,O,"(7, 12)",
+419,spurious,O,PERSON,,"(5, 5)"
+420,missed,EVENT,O,"(9, 15)",
+421,wrong_boundary,ORG,ORG,"(18, 21)","(19, 21)"
+421,missed,ORG,O,"(17, 17)",
+425,missed,ORDINAL,O,"(7, 7)",
+426,wrong_type,FACILITY,ORG,"(47, 47)","(47, 47)"
+426,missed,ORG,O,"(23, 28)",
+426,spurious,O,PERSON,,"(3, 3)"
+426,spurious,O,PERSON,,"(4, 6)"
+426,spurious,O,PERSON,,"(18, 18)"
+426,spurious,O,NAT_REL_POL,,"(19, 21)"
+426,spurious,O,PERSON,,"(75, 75)"
+426,spurious,O,PERSON,,"(76, 76)"
+426,spurious,O,PERSON,,"(79, 79)"
+427,missed,DATETIME,O,"(102, 102)",
+428,missed,LOC,O,"(32, 34)",
+428,missed,LOC,O,"(44, 46)",
+428,spurious,O,GPE,,"(34, 34)"
+428,spurious,O,GPE,,"(46, 46)"
+429,wrong_boundary,FACILITY,FACILITY,"(15, 19)","(15, 20)"
+429,wrong_boundary,FACILITY,FACILITY,"(21, 27)","(21, 28)"
+430,wrong_boundary,DATETIME,DATETIME,"(75, 77)","(74, 77)"
+431,wrong_type,ORG,FACILITY,"(36, 38)","(36, 38)"
+431,wrong_boundary,EVENT,EVENT,"(15, 25)","(15, 26)"
+431,missed,DATETIME,O,"(26, 26)",
+434,wrong_boundary,PERSON,PERSON,"(66, 70)","(66, 68)"
+434,wrong_boundary,PERSON,PERSON,"(99, 99)","(99, 100)"
+434,wrong_boundary,PERSON,PERSON,"(101, 106)","(101, 102)"
+434,missed,DATETIME,O,"(25, 26)",
+434,spurious,O,PERSON,,"(34, 34)"
+434,spurious,O,PERSON,,"(103, 106)"
+437,wrong_type,ORG,FACILITY,"(48, 49)","(48, 49)"
+444,wrong_type,ORG,FACILITY,"(2, 3)","(2, 3)"
+445,wrong_type,GPE,FACILITY,"(159, 161)","(159, 161)"
+445,wrong_boundary,GPE,GPE,"(197, 198)","(197, 197)"
+445,missed,ORG,O,"(50, 50)",
+447,missed,ORG,O,"(30, 30)",
+450,wrong_boundary,PERIOD,PERIOD,"(18, 23)","(19, 23)"
+452,wrong_boundary,PERSON,PERSON,"(60, 63)","(60, 60)"
+452,wrong_boundary,ORG,ORG,"(130, 131)","(130, 130)"
+452,missed,PERSON,O,"(217, 217)",
+452,missed,PERSON,O,"(218, 218)",
+453,wrong_type,ORG,EVENT,"(15, 20)","(15, 20)"
+453,missed,EVENT,O,"(26, 31)",
+453,missed,PERSON,O,"(35, 38)",
+453,spurious,O,NUMERIC,,"(31, 31)"
+456,wrong_boundary,PERSON,PERSON,"(4, 7)","(4, 6)"
+458,spurious,O,PERSON,,"(30, 30)"
+459,missed,GPE,O,"(13, 13)",
+459,spurious,O,ORG,,"(9, 13)"
+460,missed,DATETIME,O,"(83, 84)",
+462,wrong_boundary,PERSON,PERSON,"(36, 37)","(36, 39)"
+463,wrong_boundary,PERSON,PERSON,"(11, 23)","(11, 22)"
+464,wrong_boundary,EVENT,EVENT,"(45, 67)","(64, 65)"
+465,missed,GPE,O,"(27, 27)",
+465,missed,GPE,O,"(28, 28)",
+465,missed,GPE,O,"(30, 32)",
+465,spurious,O,LOC,,"(26, 32)"
+466,wrong_boundary,ORG,ORG,"(19, 21)","(18, 21)"
+466,wrong_boundary,WORK_OF_ART,WORK_OF_ART,"(34, 55)","(36, 36)"
+466,missed,WORK_OF_ART,O,"(33, 33)",
+466,spurious,O,WORK_OF_ART,,"(37, 37)"
+466,spurious,O,WORK_OF_ART,,"(38, 38)"
+466,spurious,O,WORK_OF_ART,,"(39, 55)"
+471,spurious,O,ORG,,"(3, 4)"
+471,spurious,O,PERSON,,"(46, 47)"
+473,missed,QUANTITY,O,"(19, 21)",
+473,missed,LOC,O,"(37, 42)",
+473,spurious,O,FACILITY,,"(35, 40)"
+474,wrong_boundary,PERSON,PERSON,"(33, 38)","(34, 38)"
+474,spurious,O,ORDINAL,,"(26, 26)"
+475,missed,EVENT,O,"(25, 25)",
+475,missed,EVENT,O,"(26, 26)",
+479,wrong_boundary,ORG,ORG,"(14, 14)","(14, 19)"
+479,missed,ORG,O,"(15, 19)",
+484,wrong_boundary,PERSON,PERSON,"(21, 24)","(21, 22)"
+485,wrong_boundary,ORG,ORG,"(45, 48)","(48, 48)"
+487,missed,NUMERIC,O,"(36, 36)",
+487,missed,NUMERIC,O,"(50, 50)",
+487,missed,NUMERIC,O,"(61, 61)",
+487,missed,NUMERIC,O,"(62, 62)",
+488,spurious,O,PERSON,,"(10, 10)"
+488,spurious,O,PERSON,,"(11, 11)"
+488,spurious,O,PERSON,,"(48, 48)"
+489,missed,EVENT,O,"(41, 46)",
+490,missed,ORG,O,"(9, 11)",
+492,wrong_type,LOC,FACILITY,"(10, 16)","(10, 16)"
+493,wrong_boundary,EVENT,EVENT,"(41, 48)","(41, 41)"
+493,wrong_boundary,PERIOD,PERIOD,"(111, 121)","(111, 114)"
+493,missed,DATETIME,O,"(54, 54)",
+493,missed,DATETIME,O,"(55, 56)",
+493,spurious,O,DATETIME,,"(116, 116)"
+493,spurious,O,DATETIME,,"(117, 117)"
+494,missed,ORG,O,"(7, 7)",
+496,wrong_boundary,DATETIME,DATETIME,"(30, 33)","(30, 30)"
+496,wrong_boundary,DATETIME,DATETIME,"(56, 68)","(60, 60)"
+496,wrong_boundary,DATETIME,DATETIME,"(76, 90)","(87, 87)"
+496,spurious,O,NUMERIC,,"(56, 56)"
+496,spurious,O,NUMERIC,,"(58, 58)"
+496,spurious,O,DATETIME,,"(65, 65)"
+496,spurious,O,DATETIME,,"(67, 67)"
+496,spurious,O,QUANTITY,,"(76, 76)"
+496,spurious,O,NUMERIC,,"(78, 78)"
+496,spurious,O,NUMERIC,,"(80, 80)"
+496,spurious,O,NUMERIC,,"(81, 81)"
+496,spurious,O,NUMERIC,,"(82, 82)"
+496,spurious,O,NUMERIC,,"(83, 83)"
+496,spurious,O,NUMERIC,,"(85, 85)"
+496,spurious,O,DATETIME,,"(90, 90)"
+497,wrong_boundary,DATETIME,DATETIME,"(3, 13)","(8, 8)"
+497,spurious,O,DATETIME,,"(9, 9)"
+497,spurious,O,DATETIME,,"(10, 13)"
+498,wrong_boundary,PERIOD,PERIOD,"(22, 25)","(23, 25)"
+499,wrong_boundary,PERSON,PERSON,"(71, 74)","(71, 73)"
+499,wrong_boundary,PERSON,PERSON,"(105, 105)","(100, 105)"
+499,spurious,O,PERSON,,"(74, 74)"
+501,wrong_type,ORG,FACILITY,"(27, 33)","(27, 33)"
+502,wrong_type,LOC,GPE,"(54, 55)","(54, 55)"
+502,wrong_type,LOC,PERSON,"(14, 20)","(14, 20)"
+502,wrong_type,LOC,GPE,"(53, 53)","(53, 53)"
+502,wrong_boundary,PERSON,PERSON,"(58, 70)","(58, 63)"
+502,spurious,O,PERSON,,"(65, 65)"
+502,spurious,O,PERSON,,"(66, 70)"
+503,wrong_boundary,PERSON,PERSON,"(2, 3)","(2, 2)"
+504,spurious,O,GPE,,"(29, 30)"
+505,spurious,O,PERSON,,"(23, 23)"
+507,spurious,O,PERSON,,"(30, 30)"
+509,missed,ORG,O,"(26, 26)",
+510,missed,NUMERIC,O,"(46, 46)",
+511,wrong_boundary,ORG,ORG,"(25, 29)","(25, 26)"
+512,missed,PERSON,O,"(111, 112)",
+517,missed,GPE,O,"(50, 53)",
+517,missed,GPE,O,"(55, 55)",
+517,missed,FACILITY,O,"(57, 57)",
+517,missed,FACILITY,O,"(58, 58)",
+517,missed,FACILITY,O,"(59, 60)",
+517,missed,FACILITY,O,"(62, 67)",
+518,wrong_boundary,PERSON,PERSON,"(21, 31)","(21, 28)"
+518,wrong_boundary,NAT_REL_POL,NAT_REL_POL,"(40, 41)","(40, 42)"
+518,spurious,O,PERSON,,"(29, 31)"
+520,missed,ORG,O,"(38, 38)",
+522,wrong_boundary,EVENT,EVENT,"(11, 19)","(11, 16)"
+522,spurious,O,GPE,,"(18, 19)"
+524,wrong_type,PERSON,NAT_REL_POL,"(45, 46)","(45, 46)"
+524,wrong_type,NAT_REL_POL,PERSON,"(3, 4)","(3, 4)"
+524,wrong_boundary,FACILITY,FACILITY,"(26, 35)","(26, 26)"
+528,missed,PERSON,O,"(4, 8)",
+528,spurious,O,WORK_OF_ART,,"(25, 25)"
+529,spurious,O,PERSON,,"(17, 17)"
+529,spurious,O,PERSON,,"(18, 18)"
+529,spurious,O,PERSON,,"(19, 19)"
+531,spurious,O,EVENT,,"(22, 22)"
+531,spurious,O,EVENT,,"(26, 28)"
+533,wrong_boundary,PERSON,PERSON,"(14, 14)","(14, 15)"
+536,missed,LOC,O,"(17, 17)",
+539,spurious,O,PERSON,,"(21, 21)"
+541,missed,GPE,O,"(15, 15)",
+541,missed,EVENT,O,"(45, 60)",
+541,spurious,O,ORG,,"(13, 15)"
+543,wrong_boundary,ORG,ORG,"(30, 31)","(30, 37)"
+543,missed,GPE,O,"(33, 33)",
+543,missed,ORG,O,"(35, 36)",
+548,missed,NUMERIC,O,"(16, 17)",
+548,missed,NUMERIC,O,"(30, 32)",
+548,missed,NUMERIC,O,"(57, 58)",
+548,missed,NUMERIC,O,"(71, 72)",
+548,missed,NUMERIC,O,"(96, 97)",
+548,missed,NUMERIC,O,"(108, 109)",
+548,missed,NUMERIC,O,"(121, 122)",
+548,missed,NUMERIC,O,"(149, 150)",
+548,missed,NUMERIC,O,"(165, 166)",
+548,missed,NUMERIC,O,"(178, 179)",
+548,missed,NUMERIC,O,"(206, 206)",
+548,missed,NUMERIC,O,"(232, 232)",
+549,spurious,O,FACILITY,,"(22, 22)"
+549,spurious,O,FACILITY,,"(23, 23)"
+549,spurious,O,FACILITY,,"(24, 28)"
+550,wrong_boundary,WORK_OF_ART,WORK_OF_ART,"(29, 35)","(27, 35)"
+550,spurious,O,PERSON,,"(14, 15)"
+552,wrong_boundary,ORG,ORG,"(2, 3)","(2, 5)"
+552,wrong_boundary,DATETIME,DATETIME,"(10, 20)","(10, 10)"
+552,missed,GPE,O,"(5, 5)",
+554,wrong_type,WORK_OF_ART,EVENT,"(12, 13)","(12, 13)"
+556,wrong_boundary,DATETIME,DATETIME,"(18, 20)","(19, 20)"
+556,missed,FACILITY,O,"(2, 2)",
+556,missed,FACILITY,O,"(3, 9)",
+556,spurious,O,LOC,,"(53, 54)"
+559,wrong_boundary,ORG,ORG,"(91, 94)","(91, 93)"
+559,missed,DATETIME,O,"(67, 69)",
+562,wrong_type,DATETIME,PERIOD,"(25, 28)","(25, 28)"
+571,missed,WORK_OF_ART,O,"(2, 12)",
+571,spurious,O,LOC,,"(16, 16)"
+571,spurious,O,LOC,,"(17, 21)"
+573,spurious,O,DATETIME,,"(3, 4)"
+576,spurious,O,ORDINAL,,"(16, 16)"
+578,wrong_boundary,PERSON,PERSON,"(86, 87)","(86, 86)"
+578,missed,NAT_REL_POL,O,"(78, 79)",
+578,missed,WORK_OF_ART,O,"(81, 84)",
+578,spurious,O,PERSON,,"(50, 50)"
+578,spurious,O,LANGUAGE,,"(78, 78)"
+581,wrong_boundary,PERIOD,PERIOD,"(13, 25)","(13, 16)"
+581,wrong_boundary,PERIOD,PERIOD,"(44, 49)","(44, 48)"
+581,spurious,O,DATETIME,,"(40, 40)"
+581,spurious,O,DATETIME,,"(41, 41)"
+582,missed,LOC,O,"(19, 21)",
+584,missed,WORK_OF_ART,O,"(102, 108)",
+585,wrong_boundary,PERSON,PERSON,"(26, 27)","(26, 26)"
+585,missed,LOC,O,"(54, 57)",
+585,spurious,O,LOC,,"(49, 49)"
+587,missed,ORG,O,"(28, 30)",
+589,wrong_boundary,WORK_OF_ART,WORK_OF_ART,"(18, 38)","(18, 18)"
+589,spurious,O,WORK_OF_ART,,"(19, 38)"
+590,spurious,O,ORDINAL,,"(11, 11)"
+592,missed,PERSON,O,"(31, 31)",
+593,wrong_boundary,EVENT,EVENT,"(30, 43)","(30, 38)"
+593,missed,ORG,O,"(13, 16)",
+593,spurious,O,DATETIME,,"(43, 43)"
+595,wrong_type,ORDINAL,PERSON,"(14, 14)","(14, 14)"
+596,missed,PERSON,O,"(5, 5)",
+597,wrong_boundary,DATETIME,DATETIME,"(2, 5)","(2, 3)"
+597,missed,PERSON,O,"(26, 26)",
+598,missed,PERSON,O,"(3, 3)",
+599,spurious,O,PERSON,,"(9, 9)"
+599,spurious,O,PERSON,,"(10, 10)"
+602,missed,LOC,O,"(39, 43)",
+602,spurious,O,GPE,,"(40, 43)"
+604,wrong_type,LOC,GPE,"(44, 44)","(44, 44)"
+604,wrong_boundary,GPE,GPE,"(39, 42)","(39, 39)"
+604,wrong_boundary,LOC,LOC,"(66, 69)","(65, 69)"
+604,missed,LOC,O,"(45, 46)",
+604,spurious,O,GPE,,"(45, 45)"
+607,wrong_type,NUMERIC,QUANTITY,"(47, 47)","(47, 47)"
+608,spurious,O,PERSON,,"(3, 3)"
+610,missed,PERSON,O,"(26, 27)",
+611,wrong_boundary,LOC,LOC,"(18, 20)","(18, 19)"
+613,wrong_type,GPE,LOC,"(61, 61)","(61, 61)"
+613,wrong_boundary,DATETIME,DATETIME,"(69, 72)","(69, 70)"
+613,spurious,O,PERSON,,"(36, 36)"
+614,missed,GPE,O,"(24, 24)",
+615,missed,LOC,O,"(5, 5)",
+616,wrong_boundary,PERSON,PERSON,"(31, 32)","(31, 31)"
+616,spurious,O,PERSON,,"(32, 32)"
+616,spurious,O,PERSON,,"(113, 113)"
+617,wrong_boundary,EVENT,EVENT,"(28, 32)","(28, 29)"
+617,spurious,O,GPE,,"(32, 32)"
+618,wrong_boundary,ORDINAL,ORDINAL,"(8, 14)","(8, 13)"
+623,wrong_boundary,PERSON,PERSON,"(34, 37)","(34, 38)"
+623,missed,PERSON,O,"(67, 76)",
+623,spurious,O,PERSON,,"(27, 31)"
+626,wrong_boundary,FACILITY,FACILITY,"(116, 123)","(116, 116)"
+626,spurious,O,NAT_REL_POL,,"(23, 25)"
+627,wrong_boundary,PERSON,PERSON,"(31, 33)","(31, 34)"
+628,wrong_boundary,ORG,ORG,"(43, 45)","(43, 46)"
+628,missed,WORK_OF_ART,O,"(30, 41)",
+628,missed,WORK_OF_ART,O,"(68, 68)",
+630,wrong_type,ORDINAL,NUMERIC,"(43, 43)","(43, 43)"
+631,wrong_boundary,DATETIME,DATETIME,"(3, 8)","(7, 8)"
+631,wrong_boundary,ORG,ORG,"(10, 46)","(10, 42)"
+631,spurious,O,ORDINAL,,"(3, 4)"
+631,spurious,O,PERSON,,"(44, 44)"
+632,wrong_boundary,PERSON,PERSON,"(5, 7)","(5, 5)"
+635,wrong_type,LOC,GPE,"(23, 26)","(23, 26)"
+637,wrong_type,ORG,WORK_OF_ART,"(116, 116)","(116, 116)"
+637,wrong_boundary,WORK_OF_ART,WORK_OF_ART,"(58, 105)","(60, 60)"
+637,missed,WORK_OF_ART,O,"(57, 57)",
+637,missed,ORG,O,"(117, 128)",
+637,spurious,O,PERSON,,"(44, 44)"
+637,spurious,O,PERSON,,"(45, 45)"
+637,spurious,O,WORK_OF_ART,,"(61, 105)"
+637,spurious,O,WORK_OF_ART,,"(117, 126)"
+637,spurious,O,DATETIME,,"(149, 149)"
+637,spurious,O,DATETIME,,"(150, 150)"
+638,missed,EVENT,O,"(15, 15)",
+638,missed,EVENT,O,"(16, 25)",
+638,spurious,O,DATETIME,,"(8, 8)"
+638,spurious,O,DATETIME,,"(9, 9)"
+639,wrong_type,DATETIME,NUMERIC,"(3, 4)","(3, 4)"
+639,missed,NAT_REL_POL,O,"(20, 21)",
+640,wrong_boundary,PERSON,PERSON,"(2, 8)","(2, 7)"
+642,wrong_boundary,PERSON,PERSON,"(15, 17)","(15, 21)"
+642,wrong_boundary,PERSON,PERSON,"(47, 50)","(47, 48)"
+642,spurious,O,PERSON,,"(49, 50)"
+644,missed,NUMERIC,O,"(64, 64)",
+644,missed,NUMERIC,O,"(65, 65)",
+644,missed,NUMERIC,O,"(66, 66)",
+645,wrong_type,ORG,PERSON,"(76, 76)","(76, 76)"
+645,wrong_type,ORG,PERSON,"(77, 77)","(77, 77)"
+645,wrong_boundary,NUMERIC,NUMERIC,"(52, 54)","(53, 53)"
+645,spurious,O,NUMERIC,,"(54, 54)"
+650,wrong_type,LOC,FACILITY,"(32, 34)","(32, 34)"
+652,wrong_boundary,PERIOD,PERIOD,"(43, 52)","(43, 48)"
+654,wrong_boundary,PERSON,PERSON,"(16, 23)","(13, 23)"
+654,missed,NAT_REL_POL,O,"(13, 15)",
+655,wrong_boundary,MONEY,MONEY,"(15, 22)","(15, 21)"
+656,wrong_boundary,ORG,ORG,"(13, 23)","(13, 15)"
+656,missed,NAT_REL_POL,O,"(9, 10)",
+657,wrong_boundary,WORK_OF_ART,WORK_OF_ART,"(158, 163)","(158, 158)"
+657,missed,PERSON,O,"(141, 142)",
+657,spurious,O,DATETIME,,"(30, 30)"
+658,wrong_type,NAT_REL_POL,PERSON,"(39, 39)","(39, 39)"
+658,wrong_type,NAT_REL_POL,PERSON,"(40, 41)","(40, 41)"
+660,missed,WORK_OF_ART,O,"(30, 38)",
+661,missed,ORDINAL,O,"(17, 17)",
+661,spurious,O,PERSON,,"(18, 21)"
+662,wrong_type,ORDINAL,DATETIME,"(3, 3)","(3, 3)"
+663,spurious,O,PERSON,,"(54, 54)"
+664,wrong_boundary,DATETIME,DATETIME,"(32, 36)","(32, 33)"
+667,wrong_boundary,ORG,ORG,"(2, 3)","(2, 4)"
+671,wrong_boundary,ORG,ORG,"(39, 52)","(44, 52)"
+671,spurious,O,PERSON,,"(29, 29)"
+671,spurious,O,PERSON,,"(30, 30)"
+673,spurious,O,ORG,,"(26, 39)"
+677,missed,ORG,O,"(11, 15)",
+678,missed,WORK_OF_ART,O,"(49, 49)",
+679,wrong_boundary,PERSON,PERSON,"(19, 28)","(20, 22)"
+679,missed,GPE,O,"(42, 43)",
+679,spurious,O,PERSON,,"(23, 23)"
+679,spurious,O,PERSON,,"(24, 28)"
+679,spurious,O,LOC,,"(42, 42)"
+680,missed,LANGUAGE,O,"(62, 68)",
+680,missed,NAT_REL_POL,O,"(105, 109)",
+680,spurious,O,GPE,,"(62, 67)"
+684,wrong_type,GPE,EVENT,"(2, 2)","(2, 2)"
+685,spurious,O,PERSON,,"(24, 24)"
+685,spurious,O,PERSON,,"(25, 25)"
+685,spurious,O,PERSON,,"(26, 27)"
+686,wrong_boundary,PERSON,PERSON,"(48, 49)","(48, 50)"
+689,wrong_type,LOC,GPE,"(40, 42)","(40, 42)"
+690,spurious,O,WORK_OF_ART,,"(5, 6)"
+693,wrong_boundary,ORDINAL,ORDINAL,"(13, 14)","(13, 13)"
+694,wrong_type,GPE,FACILITY,"(82, 84)","(82, 84)"
+694,wrong_type,GPE,FACILITY,"(90, 94)","(90, 94)"
+694,wrong_type,GPE,FACILITY,"(61, 61)","(61, 61)"
+694,wrong_type,GPE,FACILITY,"(86, 87)","(86, 87)"
+694,wrong_type,GPE,FACILITY,"(103, 103)","(103, 103)"
+694,wrong_type,GPE,FACILITY,"(89, 89)","(89, 89)"
+694,wrong_type,GPE,FACILITY,"(129, 131)","(129, 131)"
+694,wrong_type,GPE,FACILITY,"(117, 117)","(117, 117)"
+694,wrong_type,GPE,FACILITY,"(105, 106)","(105, 106)"
+694,wrong_type,GPE,FACILITY,"(104, 104)","(104, 104)"
+694,wrong_type,GPE,FACILITY,"(71, 73)","(71, 73)"
+694,wrong_type,GPE,FACILITY,"(79, 80)","(79, 80)"
+694,wrong_type,GPE,FACILITY,"(62, 67)","(62, 67)"
+694,wrong_type,GPE,FACILITY,"(46, 46)","(46, 46)"
+694,wrong_type,GPE,FACILITY,"(76, 77)","(76, 77)"
+694,wrong_type,GPE,FACILITY,"(96, 98)","(96, 98)"
+694,wrong_type,GPE,FACILITY,"(56, 59)","(56, 59)"
+694,wrong_boundary,PERSON,PERSON,"(6, 8)","(6, 11)"
+694,wrong_boundary,GPE,GPE,"(134, 138)","(134, 134)"
+694,missed,PERSON,O,"(10, 10)",
+694,missed,PERSON,O,"(11, 11)",
+694,missed,GPE,O,"(50, 55)",
+694,missed,NUMERIC,O,"(121, 121)",
+694,missed,NUMERIC,O,"(122, 122)",
+694,spurious,O,FACILITY,,"(50, 53)"
+695,missed,ORG,O,"(36, 36)",
+695,missed,ORG,O,"(37, 44)",
+695,spurious,O,DATETIME,,"(19, 19)"
+695,spurious,O,DATETIME,,"(20, 20)"
+695,spurious,O,DATETIME,,"(21, 21)"
+695,spurious,O,DATETIME,,"(22, 22)"
+695,spurious,O,DATETIME,,"(23, 23)"
+695,spurious,O,DATETIME,,"(24, 24)"
+695,spurious,O,DATETIME,,"(25, 25)"
+695,spurious,O,DATETIME,,"(26, 26)"
+695,spurious,O,DATETIME,,"(27, 27)"
+695,spurious,O,DATETIME,,"(28, 28)"
+695,spurious,O,DATETIME,,"(29, 29)"
+695,spurious,O,DATETIME,,"(30, 31)"
+696,missed,LOC,O,"(51, 57)",
+696,missed,LOC,O,"(59, 59)",
+696,missed,LOC,O,"(60, 65)",
+697,wrong_boundary,PERSON,PERSON,"(28, 30)","(28, 28)"
+698,missed,ORG,O,"(26, 26)",
+699,missed,PERSON,O,"(37, 38)",
+701,missed,PERSON,O,"(35, 35)",
+704,wrong_type,NUMERIC,DATETIME,"(5, 5)","(5, 5)"
+704,wrong_type,DATETIME,NUMERIC,"(38, 38)","(38, 38)"
+704,wrong_boundary,DATETIME,DATETIME,"(29, 34)","(29, 29)"
+706,wrong_boundary,PERSON,PERSON,"(42, 45)","(42, 42)"
+706,missed,NUMERIC,O,"(8, 8)",
+706,missed,NUMERIC,O,"(9, 9)",
+706,spurious,O,PERSON,,"(68, 68)"
+709,wrong_boundary,DATETIME,DATETIME,"(20, 23)","(20, 20)"
+709,spurious,O,DATETIME,,"(22, 22)"
+713,missed,ORG,O,"(13, 14)",
+714,missed,NAT_REL_POL,O,"(16, 17)",
+714,spurious,O,PERSON,,"(16, 16)"
+718,missed,NAT_REL_POL,O,"(24, 24)",
+718,missed,ORG,O,"(49, 55)",
+718,spurious,O,GPE,,"(54, 55)"
+719,wrong_boundary,DATETIME,DATETIME,"(13, 17)","(15, 17)"
+722,spurious,O,ORG,,"(8, 8)"
+722,spurious,O,ORG,,"(9, 12)"
+723,missed,DATETIME,O,"(62, 63)",
+723,missed,NAT_REL_POL,O,"(68, 68)",
+723,missed,NAT_REL_POL,O,"(69, 69)",
+723,spurious,O,PERSON,,"(28, 28)"
+725,wrong_boundary,ORG,ORG,"(2, 4)","(2, 5)"
+725,missed,NAT_REL_POL,O,"(5, 5)",
+726,missed,WORK_OF_ART,O,"(29, 37)",
+728,missed,FACILITY,O,"(19, 23)",
+729,wrong_boundary,NAT_REL_POL,NAT_REL_POL,"(13, 14)","(13, 13)"
+730,missed,DATETIME,O,"(14, 17)",
+733,missed,LOC,O,"(15, 15)",
+733,missed,LOC,O,"(16, 16)",
+733,missed,LOC,O,"(17, 25)",
+733,spurious,O,ORG,,"(11, 25)"
+734,missed,PERSON,O,"(23, 23)",
+737,missed,NAT_REL_POL,O,"(14, 17)",
+739,spurious,O,PERSON,,"(21, 23)"
+739,spurious,O,PERSON,,"(78, 79)"
+740,wrong_boundary,NAT_REL_POL,NAT_REL_POL,"(87, 92)","(87, 87)"
+740,spurious,O,PERSON,,"(49, 50)"
+741,wrong_boundary,LOC,LOC,"(26, 33)","(31, 31)"
+741,missed,LOC,O,"(25, 25)",
+741,spurious,O,LOC,,"(32, 33)"
+743,wrong_type,NAT_REL_POL,PERSON,"(3, 4)","(3, 4)"
+743,missed,WORK_OF_ART,O,"(35, 35)",
+753,wrong_boundary,PERSON,PERSON,"(26, 29)","(26, 26)"
+753,spurious,O,PERSON,,"(27, 29)"
+758,missed,PERIOD,O,"(35, 37)",
+759,wrong_boundary,PERSON,PERSON,"(29, 33)","(32, 33)"
+762,spurious,O,PERSON,,"(3, 3)"
+762,spurious,O,PERSON,,"(4, 4)"
+762,spurious,O,PERSON,,"(5, 6)"
+762,spurious,O,PERSON,,"(18, 20)"
+763,wrong_boundary,PERSON,PERSON,"(15, 19)","(15, 16)"
+763,wrong_boundary,PERSON,PERSON,"(25, 31)","(25, 28)"
+763,spurious,O,PERSON,,"(18, 19)"
+763,spurious,O,PERSON,,"(30, 30)"
+766,wrong_boundary,ORG,ORG,"(17, 23)","(17, 22)"
+766,missed,LOC,O,"(28, 31)",
+766,spurious,O,GPE,,"(23, 23)"
+767,wrong_boundary,PERSON,PERSON,"(27, 36)","(27, 35)"
+767,wrong_boundary,PERSON,PERSON,"(53, 53)","(53, 58)"
+767,missed,GPE,O,"(47, 47)",
+767,missed,ORG,O,"(93, 94)",
+767,spurious,O,PERSON,,"(36, 36)"
+768,missed,NAT_REL_POL,O,"(21, 21)",
+769,wrong_boundary,PERSON,PERSON,"(15, 19)","(15, 15)"
+769,wrong_boundary,PERSON,PERSON,"(28, 29)","(28, 31)"
+769,wrong_boundary,PERSON,PERSON,"(123, 126)","(123, 125)"
+769,missed,PERSON,O,"(31, 31)",
+769,missed,PERSON,O,"(34, 34)",
+769,missed,PERSON,O,"(35, 36)",
+769,spurious,O,PERSON,,"(78, 78)"
+771,missed,EVENT,O,"(30, 30)",
+771,missed,EVENT,O,"(31, 33)",
+771,missed,GPE,O,"(51, 51)",
+771,spurious,O,NUMERIC,,"(33, 33)"
+771,spurious,O,EVENT,,"(50, 51)"
+772,spurious,O,ORG,,"(46, 46)"
+773,missed,WORK_OF_ART,O,"(45, 53)",
+773,missed,ORG,O,"(57, 58)",
+773,missed,WORK_OF_ART,O,"(72, 78)",
+773,spurious,O,PERSON,,"(57, 57)"
+774,missed,ORG,O,"(8, 11)",
+775,missed,ORG,O,"(30, 45)",
+775,spurious,O,PERSON,,"(26, 26)"
+777,missed,PERSON,O,"(13, 13)",
+777,missed,PERSON,O,"(14, 14)",
+777,spurious,O,ORG,,"(35, 37)"
+783,spurious,O,PERSON,,"(20, 20)"
+786,wrong_boundary,PERSON,PERSON,"(16, 21)","(16, 18)"
+786,wrong_boundary,PERSON,PERSON,"(33, 37)","(33, 38)"
+786,spurious,O,PERSON,,"(19, 21)"
+788,missed,ORG,O,"(33, 33)",
+788,missed,ORG,O,"(34, 34)",
+788,missed,ORG,O,"(35, 35)",
+789,wrong_boundary,ORG,ORG,"(2, 6)","(2, 4)"
+789,spurious,O,GPE,,"(6, 6)"
+791,missed,EVENT,O,"(8, 9)",
+792,wrong_boundary,DATETIME,DATETIME,"(55, 56)","(56, 56)"
+792,missed,PERSON,O,"(14, 14)",
+792,missed,PERSON,O,"(15, 15)",
+794,missed,EVENT,O,"(30, 30)",
+794,missed,EVENT,O,"(31, 34)",
+795,wrong_boundary,ORG,ORG,"(20, 26)","(20, 23)"
+795,spurious,O,ORG,,"(24, 26)"
+796,wrong_boundary,PERSON,PERSON,"(23, 25)","(23, 28)"
+796,wrong_boundary,PERSON,PERSON,"(30, 34)","(30, 33)"
+796,missed,EVENT,O,"(6, 6)",
+797,missed,ORG,O,"(21, 21)",
+800,missed,EVENT,O,"(10, 14)",
+801,wrong_type,ORDINAL,NUMERIC,"(47, 47)","(47, 47)"
+801,missed,ORG,O,"(11, 11)",
+801,missed,ORG,O,"(77, 77)",
+801,missed,ORG,O,"(78, 82)",
+802,wrong_boundary,DATETIME,DATETIME,"(4, 6)","(4, 5)"
+803,missed,DATETIME,O,"(5, 6)",
+806,wrong_type,LOC,GPE,"(32, 34)","(32, 34)"
+806,wrong_boundary,PERSON,PERSON,"(48, 49)","(49, 49)"
+808,spurious,O,PERSON,,"(52, 52)"
+810,missed,PERSON,O,"(54, 55)",
+810,spurious,O,NUMERIC,,"(34, 34)"
+812,spurious,O,PERSON,,"(2, 2)"
+812,spurious,O,PERSON,,"(21, 21)"
+812,spurious,O,PERSON,,"(22, 22)"
+813,missed,WORK_OF_ART,O,"(51, 56)",
+813,missed,WORK_OF_ART,O,"(59, 61)",
+816,wrong_boundary,EVENT,EVENT,"(19, 24)","(19, 21)"
+816,spurious,O,GPE,,"(24, 24)"
+817,wrong_type,NUMERIC,PERSON,"(47, 47)","(47, 47)"
+818,wrong_boundary,ORG,ORG,"(2, 31)","(2, 15)"
+821,wrong_boundary,PERSON,PERSON,"(88, 90)","(88, 91)"
+821,missed,PERSON,O,"(91, 91)",
+822,wrong_boundary,DATETIME,DATETIME,"(68, 71)","(68, 76)"
+822,missed,ORG,O,"(24, 24)",
+822,missed,ORG,O,"(25, 33)",
+824,missed,EVENT,O,"(25, 30)",
+824,spurious,O,ORDINAL,,"(27, 30)"
+824,spurious,O,ORG,,"(50, 50)"
+825,wrong_boundary,PERSON,PERSON,"(10, 14)","(10, 24)"
+825,missed,PERSON,O,"(16, 24)",
+826,wrong_boundary,PERSON,PERSON,"(20, 21)","(20, 20)"
+826,wrong_boundary,ORG,ORG,"(46, 50)","(46, 48)"
+826,missed,ORG,O,"(25, 30)",
+828,wrong_type,WORK_OF_ART,ORG,"(30, 32)","(30, 32)"
+828,wrong_type,WORK_OF_ART,ORG,"(29, 29)","(29, 29)"
+828,wrong_type,WORK_OF_ART,ORG,"(34, 41)","(34, 41)"
+828,wrong_type,WORK_OF_ART,ORG,"(45, 47)","(45, 47)"
+828,wrong_boundary,ORG,ORG,"(7, 16)","(7, 13)"
+828,spurious,O,GPE,,"(15, 16)"
+830,wrong_type,FACILITY,ORG,"(6, 6)","(6, 6)"
+830,missed,FACILITY,O,"(7, 12)",
+830,spurious,O,ORG,,"(7, 7)"
+830,spurious,O,PERSON,,"(14, 14)"
+830,spurious,O,PERSON,,"(15, 18)"
+832,missed,ORDINAL,O,"(63, 63)",
+832,missed,ORDINAL,O,"(64, 64)",
+834,missed,PERSON,O,"(21, 23)",
+834,spurious,O,PERSON,,"(45, 45)"
+835,wrong_boundary,NUMERIC,NUMERIC,"(152, 152)","(152, 158)"
+836,missed,ORG,O,"(22, 22)",
+837,missed,PERSON,O,"(8, 8)",
+838,wrong_type,ORG,GPE,"(25, 27)","(25, 27)"
+838,wrong_type,ORG,GPE,"(29, 33)","(29, 33)"
+838,wrong_boundary,DATETIME,DATETIME,"(12, 20)","(12, 12)"
+838,wrong_boundary,ORG,ORG,"(40, 41)","(40, 40)"
+838,missed,EVENT,O,"(2, 3)",
+841,wrong_boundary,EVENT,EVENT,"(86, 87)","(86, 86)"
+841,spurious,O,EVENT,,"(42, 45)"
+841,spurious,O,EVENT,,"(64, 65)"
+842,missed,LOC,O,"(64, 64)",
+843,wrong_type,LOC,GPE,"(11, 11)","(11, 11)"
+843,wrong_type,LOC,GPE,"(12, 14)","(12, 14)"
+844,wrong_boundary,DATETIME,DATETIME,"(3, 7)","(5, 6)"
+845,missed,PERSON,O,"(26, 27)",
+845,spurious,O,PERSON,,"(96, 97)"
+846,wrong_boundary,DATETIME,DATETIME,"(29, 36)","(29, 29)"
+846,wrong_boundary,PERSON,PERSON,"(87, 96)","(87, 89)"
+846,missed,PERSON,O,"(18, 18)",
+846,missed,ORG,O,"(64, 66)",
+846,missed,PERSON,O,"(103, 103)",
+846,spurious,O,GPE,,"(64, 64)"
+846,spurious,O,PERSON,,"(90, 96)"
+847,wrong_boundary,DATETIME,DATETIME,"(67, 74)","(67, 67)"
+847,wrong_boundary,ORG,ORG,"(95, 103)","(95, 100)"
+847,missed,NAT_REL_POL,O,"(15, 17)",
+847,missed,ORG,O,"(18, 19)",
+847,missed,NAT_REL_POL,O,"(146, 148)",
+847,spurious,O,GPE,,"(101, 103)"
+848,missed,PERSON,O,"(21, 22)",
+849,missed,PERSON,O,"(35, 35)",
+849,missed,PERSON,O,"(36, 37)",
+849,missed,GPE,O,"(41, 41)",
+849,missed,GPE,O,"(42, 43)",
+849,spurious,O,ORG,,"(27, 43)"
+853,wrong_type,DATETIME,NUMERIC,"(70, 70)","(70, 70)"
+853,wrong_type,DATETIME,NUMERIC,"(72, 72)","(72, 72)"
+854,missed,PERSON,O,"(6, 7)",
+855,wrong_type,LOC,GPE,"(5, 7)","(5, 7)"
+855,missed,FACILITY,O,"(18, 22)",
+858,spurious,O,PERSON,,"(2, 2)"
+863,wrong_boundary,ORG,ORG,"(16, 19)","(9, 19)"
+866,wrong_boundary,DATETIME,DATETIME,"(3, 14)","(11, 11)"
+866,missed,FACILITY,O,"(17, 20)",
+866,spurious,O,ORG,,"(17, 18)"
+867,spurious,O,PERSON,,"(72, 72)"
+869,wrong_boundary,NUMERIC,NUMERIC,"(13, 18)","(13, 13)"
+869,wrong_boundary,NUMERIC,NUMERIC,"(29, 30)","(29, 29)"
+870,wrong_type,LOC,GPE,"(8, 10)","(8, 10)"
+870,missed,WORK_OF_ART,O,"(19, 24)",
+870,missed,WORK_OF_ART,O,"(28, 32)",
+871,wrong_boundary,PERSON,PERSON,"(23, 25)","(23, 23)"
+871,wrong_boundary,PERSON,PERSON,"(55, 56)","(56, 56)"
+871,spurious,O,PERSON,,"(48, 50)"
+872,wrong_type,ORG,FACILITY,"(16, 18)","(16, 18)"
+872,wrong_type,ORG,FACILITY,"(15, 15)","(15, 15)"
+872,missed,WORK_OF_ART,O,"(38, 43)",
+875,wrong_boundary,ORG,ORG,"(16, 17)","(16, 19)"
+875,missed,GPE,O,"(19, 19)",
+875,spurious,O,PERSON,,"(40, 40)"
+875,spurious,O,PERSON,,"(41, 45)"
+876,wrong_boundary,ORG,ORG,"(29, 30)","(29, 29)"
+879,wrong_boundary,DATETIME,DATETIME,"(12, 16)","(14, 16)"
+879,missed,PERSON,O,"(29, 29)",
+880,missed,NUMERIC,O,"(26, 26)",
+881,missed,DATETIME,O,"(31, 33)",
+882,wrong_boundary,DATETIME,DATETIME,"(25, 29)","(27, 29)"
+885,wrong_boundary,ORG,ORG,"(43, 51)","(43, 44)"
+887,missed,WORK_OF_ART,O,"(18, 21)",
+887,missed,WORK_OF_ART,O,"(23, 28)",
+887,missed,WORK_OF_ART,O,"(30, 33)",
+889,wrong_type,LOC,GPE,"(36, 36)","(36, 36)"
+889,wrong_type,LOC,GPE,"(25, 27)","(25, 27)"
+893,wrong_type,DATETIME,PERSON,"(12, 12)","(12, 12)"
+894,spurious,O,NAT_REL_POL,,"(7, 12)"
+895,wrong_boundary,ORG,ORG,"(37, 39)","(37, 41)"
+895,missed,GPE,O,"(41, 41)",
+898,spurious,O,PERSON,,"(44, 44)"
+901,wrong_boundary,PERIOD,PERIOD,"(4, 8)","(4, 4)"
+901,spurious,O,PERIOD,,"(5, 8)"
+902,missed,EVENT,O,"(34, 34)",
+902,spurious,O,PERSON,,"(59, 63)"
+904,spurious,O,ORG,,"(5, 5)"
+904,spurious,O,ORG,,"(6, 6)"
+904,spurious,O,ORG,,"(7, 15)"
+908,spurious,O,PERSON,,"(22, 22)"
+908,spurious,O,PERSON,,"(44, 44)"
+912,wrong_boundary,LOC,LOC,"(28, 38)","(35, 38)"
+912,missed,LOC,O,"(26, 26)",
+912,missed,LOC,O,"(27, 27)",
+913,wrong_boundary,EVENT,EVENT,"(38, 47)","(38, 46)"
+913,missed,PERSON,O,"(49, 49)",
+913,missed,PERSON,O,"(50, 50)",
+913,missed,PERSON,O,"(51, 52)",
+914,wrong_type,GPE,LOC,"(53, 56)","(53, 56)"
+914,wrong_type,GPE,LOC,"(59, 62)","(59, 62)"
+916,wrong_type,FACILITY,ORG,"(3, 8)","(3, 8)"
+918,wrong_boundary,PERIOD,PERIOD,"(4, 9)","(4, 4)"
+918,spurious,O,PERIOD,,"(5, 9)"
+920,spurious,O,NUMERIC,,"(41, 41)"
+920,spurious,O,PERSON,,"(57, 57)"
+921,wrong_boundary,DATETIME,DATETIME,"(23, 26)","(23, 23)"
+921,spurious,O,DATETIME,,"(25, 26)"
+922,spurious,O,WORK_OF_ART,,"(35, 45)"
+923,missed,DATETIME,O,"(24, 24)",
+924,wrong_boundary,PERSON,PERSON,"(8, 13)","(8, 14)"
+926,missed,ORG,O,"(43, 48)",
+926,missed,DATETIME,O,"(69, 70)",
+927,wrong_boundary,DATETIME,DATETIME,"(74, 79)","(75, 79)"
+927,missed,LOC,O,"(122, 122)",
+927,missed,LOC,O,"(123, 125)",
+929,missed,ORG,O,"(16, 27)",
+929,spurious,O,GPE,,"(17, 27)"
+930,missed,NAT_REL_POL,O,"(28, 29)",
+934,spurious,O,DATETIME,,"(19, 19)"
+935,wrong_boundary,DATETIME,DATETIME,"(43, 47)","(43, 43)"
+935,missed,ORG,O,"(57, 57)",
+935,spurious,O,PERSON,,"(17, 20)"
+935,spurious,O,DATETIME,,"(27, 27)"
+935,spurious,O,DATETIME,,"(45, 47)"
+936,wrong_boundary,PERSON,PERSON,"(7, 9)","(7, 8)"
+939,wrong_type,PERSON,ORG,"(9, 12)","(9, 12)"
+940,spurious,O,PERSON,,"(14, 14)"
+941,spurious,O,WORK_OF_ART,,"(47, 49)"
+942,spurious,O,ORDINAL,,"(4, 4)"
+943,wrong_boundary,DATETIME,DATETIME,"(16, 20)","(16, 16)"
+943,spurious,O,DATETIME,,"(19, 20)"
+947,missed,LOC,O,"(46, 50)",
+947,spurious,O,NAT_REL_POL,,"(62, 62)"
+947,spurious,O,NAT_REL_POL,,"(63, 64)"
+950,missed,QUANTITY,O,"(21, 25)",
+950,spurious,O,NUMERIC,,"(21, 21)"
+952,wrong_boundary,DATETIME,DATETIME,"(5, 7)","(6, 7)"
+953,missed,EVENT,O,"(23, 24)",
+953,spurious,O,NUMERIC,,"(24, 24)"
+956,missed,DATETIME,O,"(60, 62)",
+957,wrong_boundary,PERSON,PERSON,"(10, 11)","(10, 10)"
+957,missed,NAT_REL_POL,O,"(27, 29)",
+958,wrong_boundary,PERSON,PERSON,"(27, 28)","(27, 27)"
+958,spurious,O,FACILITY,,"(14, 15)"
+961,spurious,O,PERSON,,"(27, 27)"
+965,wrong_boundary,MONEY,MONEY,"(38, 41)","(38, 38)"
+965,wrong_boundary,MONEY,MONEY,"(44, 49)","(44, 54)"
+966,missed,ORG,O,"(6, 6)",
+970,wrong_type,FACILITY,GPE,"(6, 6)","(6, 6)"
+971,wrong_type,WORK_OF_ART,PERSON,"(15, 20)","(15, 20)"
+972,wrong_boundary,PERSON,PERSON,"(7, 8)","(7, 7)"
+974,wrong_boundary,DATETIME,DATETIME,"(21, 28)","(21, 21)"
+975,missed,PERSON,O,"(19, 19)",
+975,missed,PERSON,O,"(20, 21)",
+976,spurious,O,PERSON,,"(22, 23)"
+977,wrong_type,GPE,LOC,"(40, 45)","(40, 45)"
+977,missed,GPE,O,"(18, 20)",
+977,spurious,O,LOC,,"(18, 18)"
+978,missed,NAT_REL_POL,O,"(8, 8)",
+978,missed,NAT_REL_POL,O,"(9, 12)",
+978,missed,DATETIME,O,"(43, 43)",
+978,missed,DATETIME,O,"(44, 44)",
+978,missed,DATETIME,O,"(45, 46)",
+979,missed,ORG,O,"(9, 12)",
+981,wrong_type,GPE,LOC,"(37, 37)","(37, 37)"
+981,missed,PERSON,O,"(54, 54)",
+987,wrong_boundary,PERSON,PERSON,"(4, 7)","(4, 6)"
+987,wrong_boundary,NUMERIC,NUMERIC,"(17, 20)","(17, 18)"
+987,missed,ORG,O,"(59, 61)",
+987,spurious,O,NUMERIC,,"(20, 20)"
+990,wrong_type,PERSON,ORG,"(24, 25)","(24, 25)"
+993,spurious,O,DATETIME,,"(12, 12)"
+993,spurious,O,DATETIME,,"(13, 13)"
+994,wrong_boundary,WORK_OF_ART,WORK_OF_ART,"(73, 83)","(82, 82)"
+994,wrong_boundary,DATETIME,DATETIME,"(86, 91)","(86, 86)"
+994,missed,PERSON,O,"(27, 27)",
+994,missed,GPE,O,"(62, 62)",
+994,spurious,O,DATETIME,,"(89, 91)"
+995,wrong_type,FACILITY,ORG,"(44, 48)","(44, 48)"
+996,wrong_type,GPE,LOC,"(16, 18)","(16, 18)"
+996,missed,DATETIME,O,"(7, 7)",
+997,missed,NUMERIC,O,"(40, 42)",
+1001,wrong_boundary,DATETIME,DATETIME,"(3, 15)","(3, 4)"
+1002,wrong_type,PERSON,NUMERIC,"(19, 19)","(19, 19)"
+1002,missed,PERSON,O,"(20, 21)",
+1006,wrong_type,PERSON,GPE,"(13, 18)","(13, 18)"
+1006,wrong_type,GPE,LOC,"(29, 29)","(29, 29)"
+1007,missed,NUMERIC,O,"(37, 37)",
+1007,spurious,O,DATETIME,,"(37, 38)"
+1008,wrong_type,QUANTITY,NUMERIC,"(35, 35)","(35, 35)"
+1008,spurious,O,DATETIME,,"(3, 4)"
+1010,wrong_boundary,PERSON,PERSON,"(3, 6)","(3, 14)"
+1010,missed,PERSON,O,"(13, 14)",
+1014,missed,ORG,O,"(20, 20)",
+1014,missed,ORG,O,"(32, 34)",
+1014,spurious,O,PERSON,,"(15, 15)"
+1014,spurious,O,PERSON,,"(16, 16)"
+1014,spurious,O,PERSON,,"(17, 18)"
+1016,wrong_type,DATETIME,PERIOD,"(27, 29)","(27, 29)"
+1017,spurious,O,PERSON,,"(98, 98)"
+1017,spurious,O,PERSON,,"(123, 123)"
+1017,spurious,O,PERSON,,"(136, 136)"
+1019,wrong_type,GPE,ORG,"(15, 18)","(15, 18)"
+1021,wrong_boundary,PERSON,PERSON,"(6, 8)","(6, 12)"
+1021,missed,PERSON,O,"(9, 12)",
+1022,missed,ORG,O,"(20, 20)",
+1025,missed,ORG,O,"(12, 20)",
+1025,missed,ORG,O,"(22, 24)",
+1025,missed,DATETIME,O,"(34, 42)",
+1029,missed,ORG,O,"(22, 24)",
+1034,wrong_boundary,ORG,ORG,"(46, 52)","(46, 47)"
+1034,spurious,O,GPE,,"(49, 52)"
+1037,missed,DATETIME,O,"(29, 30)",
+1038,missed,DATETIME,O,"(36, 36)",
+1038,missed,DATETIME,O,"(37, 37)",
+1038,missed,DATETIME,O,"(38, 49)",
+1038,missed,DATETIME,O,"(61, 66)",
+1038,spurious,O,PERSON,,"(63, 66)"
+1039,wrong_boundary,PERSON,PERSON,"(33, 33)","(33, 37)"
+1039,missed,PERSON,O,"(36, 37)",
+1040,spurious,O,ORG,,"(3, 5)"
+1040,spurious,O,PERSON,,"(20, 20)"
+1041,wrong_boundary,ORG,ORG,"(22, 28)","(22, 29)"
+1041,missed,GPE,O,"(29, 29)",
+1045,spurious,O,NAT_REL_POL,,"(10, 10)"
+1047,wrong_boundary,EVENT,EVENT,"(48, 49)","(48, 48)"
+1047,missed,EVENT,O,"(85, 87)",
+1048,wrong_boundary,ORG,ORG,"(48, 54)","(48, 53)"
+1050,wrong_type,GPE,PERSON,"(5, 5)","(5, 5)"
+1050,missed,LOC,O,"(18, 19)",
+1050,spurious,O,FACILITY,,"(16, 19)"
+1051,missed,PERSON,O,"(12, 13)",
+1051,spurious,O,PERSON,,"(17, 18)"
+1053,spurious,O,PERSON,,"(6, 6)"
+1053,spurious,O,PERSON,,"(7, 10)"
+1055,wrong_type,NAT_REL_POL,PERSON,"(3, 3)","(3, 3)"
+1055,wrong_boundary,PERSON,PERSON,"(10, 16)","(4, 16)"
+1055,missed,NAT_REL_POL,O,"(4, 9)",
+1057,spurious,O,PERSON,,"(30, 30)"
+1057,spurious,O,PERSON,,"(31, 31)"
+1057,spurious,O,PERSON,,"(52, 52)"
+1057,spurious,O,PERSON,,"(53, 53)"
+1062,missed,DATETIME,O,"(24, 27)",
+1063,spurious,O,PERSON,,"(34, 34)"
+1063,spurious,O,PERSON,,"(38, 38)"
+1065,wrong_boundary,DATETIME,DATETIME,"(27, 32)","(31, 32)"
+1065,missed,ORG,O,"(41, 41)",
+1068,missed,ORDINAL,O,"(17, 17)",
+1069,wrong_type,GPE,LOC,"(6, 6)","(6, 6)"
+1069,wrong_type,GPE,LOC,"(5, 5)","(5, 5)"
+1069,missed,GPE,O,"(7, 11)",
+1069,spurious,O,LOC,,"(7, 8)"
+1073,wrong_boundary,NAT_REL_POL,NAT_REL_POL,"(59, 60)","(59, 61)"
+1074,wrong_boundary,PERSON,PERSON,"(2, 13)","(2, 15)"
+1075,wrong_boundary,ORG,ORG,"(7, 11)","(7, 8)"
+1075,missed,ORG,O,"(19, 21)",
+1075,spurious,O,GPE,,"(11, 11)"
+1075,spurious,O,ORG,,"(34, 34)"
+1078,spurious,O,PERSON,,"(11, 11)"
+1082,wrong_boundary,PERSON,PERSON,"(65, 65)","(65, 66)"
+1085,wrong_boundary,EVENT,EVENT,"(20, 23)","(20, 22)"
+1085,spurious,O,DATETIME,,"(23, 23)"
+1086,missed,ORDINAL,O,"(11, 11)",
+1086,missed,ORDINAL,O,"(23, 23)",
+1087,wrong_boundary,PERSON,PERSON,"(14, 14)","(14, 16)"
+1089,missed,ORG,O,"(28, 28)",
+1089,missed,ORG,O,"(29, 33)",
+1090,missed,DATETIME,O,"(20, 20)",
+1091,wrong_type,QUANTITY,NUMERIC,"(14, 14)","(14, 14)"
+1093,wrong_type,EVENT,ORG,"(34, 34)","(34, 34)"
+1093,wrong_type,EVENT,ORG,"(33, 33)","(33, 33)"
+1093,missed,EVENT,O,"(35, 38)",
+1093,spurious,O,ORG,,"(35, 35)"
+1095,missed,LOC,O,"(55, 65)",
+1095,spurious,O,GPE,,"(55, 57)"
+1095,spurious,O,GPE,,"(59, 60)"
+1095,spurious,O,GPE,,"(63, 65)"
+1096,wrong_boundary,PERSON,PERSON,"(20, 20)","(20, 24)"
+1098,wrong_type,NAT_REL_POL,PERSON,"(17, 18)","(17, 18)"
+1098,missed,NAT_REL_POL,O,"(25, 26)",
+1099,missed,PERSON,O,"(33, 33)",
+1099,missed,NUMERIC,O,"(60, 60)",
+1099,missed,NUMERIC,O,"(62, 62)",
+1099,missed,NUMERIC,O,"(63, 63)",
+1099,missed,PERSON,O,"(71, 71)",
+1101,spurious,O,PERSON,,"(16, 16)"
+1101,spurious,O,NUMERIC,,"(87, 87)"
+1104,missed,ORG,O,"(8, 11)",
+1105,spurious,O,PERSON,,"(38, 38)"
+1111,wrong_boundary,PERIOD,PERIOD,"(42, 48)","(42, 42)"
+1111,spurious,O,PERIOD,,"(43, 48)"
+1113,wrong_boundary,GPE,GPE,"(27, 27)","(27, 28)"
+1113,missed,GPE,O,"(28, 28)",
+1114,wrong_boundary,PERSON,PERSON,"(61, 68)","(61, 65)"
+1114,wrong_boundary,PERSON,PERSON,"(73, 77)","(73, 83)"
+1114,missed,PERSON,O,"(79, 79)",
+1114,missed,PERSON,O,"(80, 83)",
+1116,missed,ORG,O,"(11, 11)",
+1117,wrong_type,FACILITY,ORG,"(40, 40)","(40, 40)"
+1117,wrong_boundary,DATETIME,DATETIME,"(21, 24)","(21, 22)"
+1117,missed,EVENT,O,"(6, 11)",
+1117,missed,DATETIME,O,"(15, 16)",
+1117,spurious,O,GPE,,"(10, 11)"
+1117,spurious,O,DATETIME,,"(13, 13)"
+1118,wrong_boundary,PERSON,PERSON,"(27, 28)","(27, 37)"
+1118,missed,PERSON,O,"(30, 36)",
+1119,missed,WORK_OF_ART,O,"(23, 23)",
+1119,missed,WORK_OF_ART,O,"(24, 28)",
+1120,spurious,O,PERSON,,"(14, 14)"
+1122,wrong_type,LOC,GPE,"(16, 17)","(16, 17)"
+1122,wrong_type,LOC,GPE,"(29, 30)","(29, 30)"
+1123,missed,DATETIME,O,"(8, 8)",
+1123,missed,DATETIME,O,"(9, 10)",
+1125,spurious,O,NAT_REL_POL,,"(134, 138)"
+1126,missed,ORG,O,"(11, 11)",
+1126,missed,ORG,O,"(12, 16)",
+1126,spurious,O,NUMERIC,,"(14, 16)"
+1133,wrong_boundary,PERSON,PERSON,"(60, 61)","(60, 62)"
+1134,missed,DATETIME,O,"(8, 17)",
+1134,spurious,O,ORDINAL,,"(7, 7)"
+1134,spurious,O,ORDINAL,,"(8, 9)"
+1136,missed,PERSON,O,"(12, 14)",
+1136,missed,PERSON,O,"(21, 21)",
+1140,wrong_type,PERSON,ORG,"(60, 62)","(60, 62)"
+1141,missed,ORG,O,"(2, 2)",
+1141,missed,ORG,O,"(3, 3)",
+1142,missed,ORG,O,"(28, 28)",
+1142,spurious,O,PERSON,,"(2, 2)"
+1142,spurious,O,PERSON,,"(16, 16)"
+1142,spurious,O,PERSON,,"(22, 22)"
+1145,wrong_type,NAT_REL_POL,PERSON,"(6, 6)","(6, 6)"
+1146,wrong_boundary,PERSON,PERSON,"(9, 10)","(9, 12)"
+1146,wrong_boundary,PERSON,PERSON,"(14, 15)","(14, 17)"
+1147,missed,GPE,O,"(25, 29)",
+1147,missed,GPE,O,"(31, 35)",
+1147,missed,ORDINAL,O,"(62, 62)",
+1149,missed,PERSON,O,"(21, 21)",
+1152,wrong_boundary,EVENT,EVENT,"(12, 18)","(12, 12)"
+1153,missed,PERSON,O,"(46, 46)",
+1153,missed,PERSON,O,"(47, 47)",
+1153,missed,PERSON,O,"(50, 50)",
+1154,missed,EVENT,O,"(12, 13)",
+1155,missed,ORG,O,"(15, 15)",
+1155,missed,ORG,O,"(16, 23)",
+1159,wrong_type,MONEY,NUMERIC,"(108, 108)","(108, 108)"
+1159,wrong_boundary,DATETIME,DATETIME,"(6, 17)","(6, 6)"
+1159,wrong_boundary,DATETIME,DATETIME,"(30, 32)","(30, 30)"
+1159,wrong_boundary,MONEY,MONEY,"(61, 63)","(61, 62)"
+1159,wrong_boundary,MONEY,MONEY,"(73, 81)","(73, 79)"
+1159,wrong_boundary,MONEY,MONEY,"(83, 90)","(83, 83)"
+1159,wrong_boundary,MONEY,MONEY,"(100, 106)","(100, 100)"
+1159,wrong_boundary,MONEY,MONEY,"(116, 123)","(116, 118)"
+1159,wrong_boundary,MONEY,MONEY,"(125, 132)","(125, 127)"
+1159,wrong_boundary,MONEY,MONEY,"(133, 140)","(133, 134)"
+1159,wrong_boundary,MONEY,MONEY,"(145, 151)","(145, 145)"
+1159,wrong_boundary,MONEY,MONEY,"(154, 162)","(154, 160)"
+1159,wrong_boundary,MONEY,MONEY,"(164, 169)","(164, 168)"
+1159,wrong_boundary,MONEY,MONEY,"(171, 182)","(171, 181)"
+1159,missed,MONEY,O,"(92, 98)",
+1159,missed,MONEY,O,"(109, 115)",
+1159,spurious,O,NAT_REL_POL,,"(63, 63)"
+1159,spurious,O,NUMERIC,,"(92, 92)"
+1159,spurious,O,NAT_REL_POL,,"(97, 98)"
+1159,spurious,O,NUMERIC,,"(109, 109)"
+1159,spurious,O,NAT_REL_POL,,"(111, 111)"
+1159,spurious,O,NAT_REL_POL,,"(112, 112)"
+1159,spurious,O,NAT_REL_POL,,"(113, 113)"
+1159,spurious,O,NAT_REL_POL,,"(114, 115)"
+1159,spurious,O,NAT_REL_POL,,"(128, 128)"
+1159,spurious,O,NAT_REL_POL,,"(129, 129)"
+1159,spurious,O,NAT_REL_POL,,"(130, 130)"
+1159,spurious,O,NAT_REL_POL,,"(131, 132)"
+1159,spurious,O,NAT_REL_POL,,"(182, 182)"
+1161,missed,EVENT,O,"(18, 25)",
+1161,spurious,O,DATETIME,,"(22, 22)"
+1161,spurious,O,GPE,,"(24, 24)"
+1161,spurious,O,GPE,,"(25, 25)"
+1162,wrong_boundary,PERSON,PERSON,"(24, 26)","(24, 24)"
+1163,spurious,O,ORG,,"(4, 4)"
+1163,spurious,O,ORG,,"(5, 7)"
+1164,missed,EVENT,O,"(2, 9)",
+1164,spurious,O,NUMERIC,,"(4, 4)"
+1164,spurious,O,NUMERIC,,"(5, 5)"
+1164,spurious,O,NUMERIC,,"(6, 6)"
+1171,spurious,O,PERSON,,"(3, 5)"
+1173,spurious,O,PERSON,,"(27, 27)"
+1175,spurious,O,PERSON,,"(5, 5)"
+1175,spurious,O,PERSON,,"(6, 6)"
+1176,missed,EVENT,O,"(5, 6)",
+1176,missed,PERSON,O,"(91, 92)",
+1177,wrong_boundary,PERSON,PERSON,"(74, 75)","(74, 74)"
+1182,wrong_boundary,ORG,ORG,"(7, 10)","(7, 7)"
+1182,missed,NUMERIC,O,"(33, 34)",
+1182,spurious,O,NAT_REL_POL,,"(22, 22)"
+1182,spurious,O,EVENT,,"(33, 33)"
+1185,wrong_boundary,PERSON,PERSON,"(34, 36)","(34, 34)"
+1189,wrong_boundary,ORG,ORG,"(8, 13)","(7, 13)"
+1189,spurious,O,ORG,,"(5, 5)"
+1189,spurious,O,ORG,,"(6, 6)"
+1191,wrong_type,ORG,GPE,"(16, 17)","(16, 17)"
+1191,missed,GPE,O,"(27, 27)",
+1192,wrong_boundary,FACILITY,FACILITY,"(16, 24)","(16, 16)"
+1192,wrong_boundary,LOC,LOC,"(45, 51)","(45, 48)"
+1192,spurious,O,GPE,,"(51, 51)"
+1194,wrong_boundary,DATETIME,DATETIME,"(44, 48)","(44, 45)"
+1194,wrong_boundary,DATETIME,DATETIME,"(51, 56)","(51, 52)"
+1195,wrong_boundary,PERSON,PERSON,"(64, 66)","(64, 64)"
+1195,spurious,O,PERSON,,"(65, 66)"
+1196,spurious,O,PERSON,,"(3, 3)"
+1196,spurious,O,PERSON,,"(4, 4)"
+1196,spurious,O,PERSON,,"(5, 5)"
+1196,spurious,O,DATETIME,,"(17, 17)"
+1197,missed,DATETIME,O,"(30, 30)",
+1198,missed,LANGUAGE,O,"(34, 37)",
+1198,missed,EVENT,O,"(39, 39)",
+1198,missed,EVENT,O,"(40, 40)",
+1198,missed,EVENT,O,"(41, 47)",
+1200,spurious,O,PERSON,,"(18, 19)"
+1204,spurious,O,ORG,,"(7, 7)"
+1206,wrong_boundary,NUMERIC,NUMERIC,"(39, 41)","(39, 39)"
+1206,wrong_boundary,NUMERIC,NUMERIC,"(48, 50)","(48, 48)"
+1206,wrong_boundary,NUMERIC,NUMERIC,"(57, 59)","(57, 57)"
+1206,wrong_boundary,NUMERIC,NUMERIC,"(66, 68)","(66, 66)"
+1206,spurious,O,NUMERIC,,"(41, 41)"
+1206,spurious,O,NUMERIC,,"(50, 50)"
+1206,spurious,O,NUMERIC,,"(59, 59)"
+1206,spurious,O,NUMERIC,,"(68, 68)"
+1209,wrong_type,LOC,GPE,"(28, 29)","(28, 29)"
+1211,missed,LOC,O,"(52, 63)",
+1212,wrong_type,NUMERIC,PERSON,"(20, 20)","(20, 20)"
+1216,spurious,O,PERSON,,"(39, 39)"
+1218,wrong_boundary,PERSON,PERSON,"(55, 63)","(55, 58)"
+1218,spurious,O,PERSON,,"(59, 63)"
+1221,missed,ORG,O,"(14, 14)",
+1221,missed,ORG,O,"(30, 31)",
+1222,wrong_boundary,PERSON,PERSON,"(16, 20)","(16, 18)"
+1222,missed,GPE,O,"(38, 38)",
+1226,wrong_boundary,PERIOD,PERIOD,"(51, 53)","(51, 51)"
+1226,wrong_boundary,WORK_OF_ART,WORK_OF_ART,"(77, 87)","(77, 83)"
+1226,missed,WORK_OF_ART,O,"(68, 73)",
+1226,spurious,O,ORG,,"(15, 15)"
+1226,spurious,O,ORG,,"(16, 21)"
+1226,spurious,O,PERSON,,"(32, 34)"
+1226,spurious,O,NUMERIC,,"(53, 53)"
+1226,spurious,O,PERSON,,"(68, 69)"
+1226,spurious,O,WORK_OF_ART,,"(84, 87)"
+1227,missed,ORG,O,"(13, 13)",
+1227,missed,ORG,O,"(53, 60)",
+1228,wrong_type,PERSON,NAT_REL_POL,"(27, 29)","(27, 29)"
+1229,wrong_boundary,PERSON,PERSON,"(14, 16)","(14, 15)"
+1230,missed,PERSON,O,"(8, 8)",
+1236,missed,DATETIME,O,"(38, 38)",
+1238,wrong_type,GPE,ORG,"(8, 10)","(8, 10)"
+1240,missed,WORK_OF_ART,O,"(13, 16)",
+1240,spurious,O,PERSON,,"(2, 2)"
+1243,missed,LOC,O,"(4, 4)",
+1243,missed,LOC,O,"(5, 5)",
+1243,missed,LOC,O,"(6, 9)",
+1246,wrong_boundary,EVENT,EVENT,"(68, 70)","(68, 68)"
+1246,spurious,O,ORG,,"(32, 32)"
+1246,spurious,O,ORG,,"(33, 37)"
+1248,wrong_type,LOC,FACILITY,"(23, 23)","(23, 23)"
+1248,wrong_type,LOC,FACILITY,"(52, 58)","(52, 58)"
+1248,wrong_type,LOC,FACILITY,"(24, 24)","(24, 24)"
+1248,wrong_type,LOC,FACILITY,"(36, 42)","(36, 42)"
+1248,wrong_type,LOC,FACILITY,"(35, 35)","(35, 35)"
+1248,wrong_type,LOC,FACILITY,"(44, 50)","(44, 50)"
+1248,wrong_type,LOC,FACILITY,"(25, 33)","(25, 33)"
+1248,missed,LOC,O,"(3, 3)",
+1248,missed,LOC,O,"(4, 7)",
+1248,missed,FACILITY,O,"(86, 95)",
+1250,wrong_type,PERSON,NAT_REL_POL,"(78, 78)","(78, 78)"
+1250,wrong_type,PERSON,NAT_REL_POL,"(79, 80)","(79, 80)"
+1251,wrong_boundary,PERSON,PERSON,"(53, 54)","(52, 57)"
+1251,missed,NAT_REL_POL,O,"(55, 55)",
+1251,missed,NAT_REL_POL,O,"(56, 57)",
+1251,missed,NAT_REL_POL,O,"(66, 67)",
+1251,missed,EVENT,O,"(104, 104)",
+1251,missed,EVENT,O,"(105, 112)",
+1251,spurious,O,PERSON,,"(51, 51)"
+1251,spurious,O,GPE,,"(110, 110)"
+1251,spurious,O,GPE,,"(111, 112)"
+1251,spurious,O,PERSON,,"(157, 157)"
+1252,spurious,O,NAT_REL_POL,,"(32, 32)"
+1252,spurious,O,NAT_REL_POL,,"(33, 38)"
+1252,spurious,O,NAT_REL_POL,,"(43, 47)"
+1253,wrong_boundary,ORG,ORG,"(3, 7)","(4, 7)"
+1253,missed,ORG,O,"(2, 2)",
+1254,missed,ORG,O,"(104, 113)",
+1254,spurious,O,PERSON,,"(9, 9)"
+1254,spurious,O,PERSON,,"(10, 10)"
+1255,spurious,O,PERSON,,"(53, 54)"
+1256,missed,LOC,O,"(13, 14)",
+1256,spurious,O,LOC,,"(11, 11)"
+1258,wrong_boundary,PERSON,PERSON,"(67, 75)","(67, 71)"
+1258,wrong_boundary,WORK_OF_ART,WORK_OF_ART,"(103, 109)","(102, 109)"
+1258,spurious,O,NAT_REL_POL,,"(52, 52)"
+1258,spurious,O,NAT_REL_POL,,"(53, 55)"
+1258,spurious,O,PERSON,,"(72, 75)"
+1260,spurious,O,PERSON,,"(31, 31)"
+1261,missed,PERSON,O,"(113, 113)",
+1261,spurious,O,PERSON,,"(110, 110)"
+1263,missed,ORG,O,"(16, 18)",
+1264,missed,EVENT,O,"(2, 5)",
+1264,spurious,O,GPE,,"(5, 5)"
+1266,wrong_boundary,DATETIME,DATETIME,"(37, 51)","(37, 37)"
+1267,missed,EVENT,O,"(18, 20)",
+1269,spurious,O,NUMERIC,,"(11, 11)"
+1269,spurious,O,NUMERIC,,"(12, 12)"
+1270,missed,LOC,O,"(19, 26)",
+1273,wrong_type,DATETIME,NUMERIC,"(88, 88)","(88, 88)"
+1274,wrong_boundary,EVENT,EVENT,"(14, 15)","(14, 23)"
+1275,missed,PERSON,O,"(11, 11)",
+1276,wrong_type,ORG,FACILITY,"(17, 18)","(17, 18)"
+1276,wrong_boundary,PERSON,PERSON,"(38, 39)","(38, 41)"
+1276,missed,EVENT,O,"(10, 11)",
+1277,wrong_boundary,PERSON,PERSON,"(7, 13)","(7, 7)"
+1277,spurious,O,PERSON,,"(12, 13)"
+1278,missed,LOC,O,"(27, 29)",
+1278,spurious,O,GPE,,"(28, 28)"
+1285,wrong_type,ORG,EVENT,"(64, 64)","(64, 64)"
+1285,missed,EVENT,O,"(31, 39)",
+1285,missed,GPE,O,"(57, 57)",
+1285,missed,GPE,O,"(58, 58)",
+1285,missed,ORG,O,"(65, 76)",
+1285,spurious,O,DATETIME,,"(35, 35)"
+1285,spurious,O,DATETIME,,"(36, 36)"
+1285,spurious,O,DATETIME,,"(37, 37)"
+1285,spurious,O,ORG,,"(43, 58)"
+1285,spurious,O,EVENT,,"(65, 65)"
+1289,wrong_boundary,EVENT,EVENT,"(13, 18)","(13, 16)"
+1289,spurious,O,DATETIME,,"(18, 18)"
+1290,wrong_type,QUANTITY,NUMERIC,"(44, 44)","(44, 44)"
+1290,wrong_type,QUANTITY,NUMERIC,"(42, 42)","(42, 42)"
+1290,missed,QUANTITY,O,"(45, 48)",
+1290,missed,PERSON,O,"(109, 109)",
+1290,spurious,O,NUMERIC,,"(45, 45)"
+1293,wrong_type,NUMERIC,DATETIME,"(3, 5)","(3, 5)"
+1293,wrong_type,ORG,PERSON,"(22, 28)","(22, 28)"
+1293,missed,ORDINAL,O,"(50, 50)",
+1294,missed,ORG,O,"(32, 37)",
+1295,wrong_type,LOC,GPE,"(56, 62)","(56, 62)"
+1295,wrong_type,LOC,GPE,"(54, 54)","(54, 54)"
+1295,wrong_type,LOC,GPE,"(55, 55)","(55, 55)"
+1297,wrong_boundary,PERSON,PERSON,"(25, 33)","(25, 29)"
+1297,spurious,O,PERSON,,"(31, 33)"
+1300,missed,LOC,O,"(31, 31)",
+1302,spurious,O,PERSON,,"(101, 104)"
+1303,wrong_boundary,PERSON,PERSON,"(34, 39)","(34, 38)"
+1303,missed,ORG,O,"(6, 6)",
+1303,missed,ORG,O,"(7, 7)",
+1303,missed,ORG,O,"(8, 8)",
+1303,spurious,O,PERSON,,"(39, 39)"
+1305,wrong_boundary,NAT_REL_POL,NAT_REL_POL,"(56, 58)","(56, 60)"
+1305,missed,NAT_REL_POL,O,"(60, 60)",
+1306,spurious,O,ORDINAL,,"(57, 57)"
+1307,missed,ORG,O,"(5, 5)",
+1308,wrong_boundary,PERSON,PERSON,"(12, 26)","(22, 26)"
+1309,wrong_boundary,WORK_OF_ART,WORK_OF_ART,"(7, 16)","(7, 7)"
+1312,wrong_type,MONEY,NUMERIC,"(45, 46)","(45, 46)"
+1313,wrong_boundary,ORG,ORG,"(58, 66)","(57, 66)"
+1313,missed,GPE,O,"(75, 75)",
+1313,missed,FACILITY,O,"(84, 84)",
+1313,missed,EVENT,O,"(92, 92)",
+1313,spurious,O,ORG,,"(83, 84)"
+1314,wrong_boundary,WORK_OF_ART,WORK_OF_ART,"(25, 28)","(25, 25)"
+1314,spurious,O,WORK_OF_ART,,"(27, 28)"
+1317,wrong_type,NAT_REL_POL,PERSON,"(25, 25)","(25, 25)"
+1317,wrong_type,NAT_REL_POL,PERSON,"(26, 31)","(26, 31)"
+1318,wrong_type,NAT_REL_POL,LANGUAGE,"(27, 27)","(27, 27)"
+1318,wrong_type,NAT_REL_POL,LANGUAGE,"(22, 22)","(22, 22)"
+1318,wrong_boundary,NAT_REL_POL,NAT_REL_POL,"(71, 71)","(71, 74)"
+1318,missed,NAT_REL_POL,O,"(23, 25)",
+1318,missed,NAT_REL_POL,O,"(28, 29)",
+1318,missed,NAT_REL_POL,O,"(73, 74)",
+1318,spurious,O,LANGUAGE,,"(23, 23)"
+1318,spurious,O,LANGUAGE,,"(28, 28)"
+1319,missed,EVENT,O,"(70, 70)",
+1319,missed,EVENT,O,"(71, 76)",
+1319,spurious,O,GPE,,"(76, 76)"
+1320,wrong_boundary,WORK_OF_ART,WORK_OF_ART,"(21, 25)","(20, 26)"
+1320,missed,WORK_OF_ART,O,"(40, 46)",
+1320,missed,WORK_OF_ART,O,"(50, 50)",
+1320,missed,WORK_OF_ART,O,"(51, 57)",
+1320,missed,WORK_OF_ART,O,"(61, 61)",
+1320,missed,WORK_OF_ART,O,"(62, 70)",
+1320,missed,WORK_OF_ART,O,"(73, 81)",
+1320,missed,WORK_OF_ART,O,"(83, 83)",
+1320,missed,WORK_OF_ART,O,"(84, 95)",
+1324,spurious,O,ORG,,"(41, 41)"
+1325,missed,PERSON,O,"(43, 43)",
+1325,spurious,O,PERSON,,"(42, 42)"
+1329,wrong_type,NAT_REL_POL,GPE,"(13, 16)","(13, 16)"
+1330,wrong_type,DATETIME,PERIOD,"(10, 12)","(10, 12)"
+1330,wrong_type,DATETIME,PERIOD,"(9, 9)","(9, 9)"
+1330,wrong_boundary,DATETIME,DATETIME,"(22, 25)","(21, 22)"
+1330,missed,ORDINAL,O,"(21, 21)",
+1333,wrong_type,DATETIME,PERIOD,"(14, 17)","(14, 17)"
+1333,missed,EVENT,O,"(24, 27)",
+1336,wrong_type,ORG,PERSON,"(24, 27)","(24, 27)"
+1336,missed,NAT_REL_POL,O,"(17, 22)",
+1336,spurious,O,GPE,,"(21, 22)"
+1339,wrong_boundary,PERSON,PERSON,"(16, 23)","(16, 25)"
+1339,missed,PERSON,O,"(25, 25)",
+1340,wrong_boundary,ORG,ORG,"(10, 15)","(11, 11)"
+1340,spurious,O,ORG,,"(12, 15)"
+1340,spurious,O,NAT_REL_POL,,"(38, 38)"
+1343,wrong_boundary,DATETIME,DATETIME,"(17, 18)","(17, 17)"
+1344,missed,ORG,O,"(9, 9)",
+1344,missed,ORG,O,"(10, 10)",
+1344,spurious,O,PERSON,,"(54, 54)"
+1346,missed,DATETIME,O,"(22, 24)",
+1348,missed,ORG,O,"(20, 26)",
+1348,missed,ORG,O,"(27, 27)",
+1348,missed,ORG,O,"(29, 29)",
+1349,spurious,O,PERSON,,"(8, 8)"
+1349,spurious,O,PERSON,,"(9, 9)"
+1349,spurious,O,PERSON,,"(10, 11)"
+1350,wrong_boundary,ORG,ORG,"(59, 67)","(59, 60)"
+1350,missed,PERSON,O,"(37, 38)",
+1350,missed,PERSON,O,"(43, 43)",
+1350,missed,PERSON,O,"(44, 44)",
+1350,missed,PERSON,O,"(45, 45)",
+1350,missed,PERSON,O,"(46, 46)",
+1350,missed,PERSON,O,"(47, 47)",
+1350,missed,PERSON,O,"(48, 48)",
+1350,missed,PERSON,O,"(49, 49)",
+1350,missed,PERSON,O,"(50, 52)",
+1352,wrong_boundary,DATETIME,DATETIME,"(8, 10)","(8, 9)"
+1354,spurious,O,ORG,,"(61, 61)"
+1354,spurious,O,ORG,,"(63, 63)"
+1357,missed,DATETIME,O,"(3, 8)",
+1357,missed,DATETIME,O,"(17, 17)",
+1357,spurious,O,PERIOD,,"(2, 8)"
+1358,missed,PERSON,O,"(37, 37)",
+1360,missed,NAT_REL_POL,O,"(11, 12)",
+1361,missed,LOC,O,"(7, 9)",
+1361,spurious,O,GPE,,"(7, 7)"
+1364,missed,PERSON,O,"(120, 121)",
+1364,spurious,O,PERSON,,"(26, 26)"
+1365,wrong_boundary,PERSON,PERSON,"(30, 40)","(30, 34)"
+1365,spurious,O,PERSON,,"(36, 39)"
+1367,wrong_boundary,GPE,GPE,"(47, 48)","(47, 51)"
+1367,missed,GPE,O,"(50, 51)",
+1368,wrong_boundary,DATETIME,DATETIME,"(12, 24)","(14, 24)"
+1368,wrong_boundary,GPE,GPE,"(26, 32)","(26, 36)"
+1368,missed,GPE,O,"(33, 33)",
+1368,missed,GPE,O,"(34, 36)",
+1369,wrong_boundary,PERSON,PERSON,"(8, 19)","(8, 20)"
+1369,missed,NUMERIC,O,"(20, 20)",
+1371,missed,NUMERIC,O,"(135, 137)",
+1371,missed,NUMERIC,O,"(141, 142)",
+1373,wrong_boundary,ORG,ORG,"(12, 23)","(12, 32)"
+1373,missed,ORG,O,"(25, 31)",
+1374,wrong_boundary,DATETIME,DATETIME,"(5, 7)","(5, 6)"
+1374,spurious,O,DATETIME,,"(23, 23)"
+1374,spurious,O,DATETIME,,"(24, 24)"
+1374,spurious,O,DATETIME,,"(25, 25)"
+1374,spurious,O,DATETIME,,"(26, 26)"
+1376,wrong_type,PERSON,NAT_REL_POL,"(17, 17)","(17, 17)"
+1381,wrong_type,GPE,FACILITY,"(20, 20)","(20, 20)"
+1381,wrong_type,GPE,FACILITY,"(21, 23)","(21, 23)"
+1385,wrong_boundary,WORK_OF_ART,WORK_OF_ART,"(11, 14)","(11, 12)"
+1386,wrong_type,PERSON,NAT_REL_POL,"(5, 5)","(5, 5)"
+1386,wrong_type,PERSON,NAT_REL_POL,"(6, 8)","(6, 8)"
+1386,spurious,O,PERSON,,"(48, 48)"
+1386,spurious,O,ORG,,"(74, 74)"
+1389,wrong_boundary,DATETIME,DATETIME,"(3, 5)","(3, 4)"
+1389,missed,GPE,O,"(27, 30)",
+1390,wrong_type,ORG,PERSON,"(7, 9)","(7, 9)"
+1393,wrong_boundary,DATETIME,DATETIME,"(55, 56)","(55, 55)"
+1393,wrong_boundary,PERSON,PERSON,"(71, 71)","(71, 74)"
+1394,spurious,O,PERSON,,"(6, 6)"
+1395,wrong_type,GPE,LOC,"(8, 10)","(8, 10)"
+1395,spurious,O,LOC,,"(3, 3)"
+1395,spurious,O,LOC,,"(4, 4)"
+1399,spurious,O,ORDINAL,,"(10, 10)"
+1400,wrong_boundary,PERSON,PERSON,"(26, 31)","(26, 29)"
+1400,spurious,O,PERSON,,"(30, 31)"
+1402,wrong_type,LOC,GPE,"(37, 39)","(37, 39)"
+1407,missed,WORK_OF_ART,O,"(17, 17)",
+1407,missed,WORK_OF_ART,O,"(18, 21)",
+1407,missed,FACILITY,O,"(35, 38)",
+1407,spurious,O,ORDINAL,,"(11, 11)"
+1407,spurious,O,ORG,,"(35, 37)"
+1408,wrong_type,LOC,FACILITY,"(41, 43)","(41, 43)"
+1409,missed,WORK_OF_ART,O,"(14, 20)",
+1409,missed,WORK_OF_ART,O,"(46, 53)",
+1410,wrong_boundary,PERSON,PERSON,"(21, 29)","(21, 23)"
+1410,spurious,O,PERSON,,"(24, 24)"
+1410,spurious,O,PERSON,,"(25, 25)"
+1410,spurious,O,PERSON,,"(26, 29)"
+1411,wrong_type,NAT_REL_POL,GPE,"(17, 17)","(17, 17)"
+1411,wrong_type,NAT_REL_POL,GPE,"(14, 14)","(14, 14)"
+1411,wrong_type,NAT_REL_POL,GPE,"(16, 16)","(16, 16)"
+1411,wrong_type,NAT_REL_POL,GPE,"(18, 18)","(18, 18)"
+1411,wrong_type,NAT_REL_POL,GPE,"(15, 15)","(15, 15)"
+1413,wrong_boundary,DATETIME,DATETIME,"(6, 14)","(6, 10)"
+1413,wrong_boundary,LOC,LOC,"(27, 35)","(33, 35)"
+1413,missed,EVENT,O,"(62, 68)",
+1413,spurious,O,FACILITY,,"(28, 28)"
+1416,wrong_boundary,PERSON,PERSON,"(10, 13)","(10, 11)"
+1416,spurious,O,DATETIME,,"(7, 7)"
+1418,wrong_boundary,PERSON,PERSON,"(109, 117)","(109, 114)"
+1418,missed,PERSON,O,"(99, 99)",
+1418,spurious,O,PERSON,,"(39, 39)"
+1419,spurious,O,PERSON,,"(28, 28)"
+1420,spurious,O,PERSON,,"(52, 52)"
+1420,spurious,O,PERSON,,"(53, 53)"
+1420,spurious,O,PERSON,,"(54, 54)"
+1423,wrong_boundary,PERSON,PERSON,"(49, 54)","(49, 50)"
+1424,missed,ORDINAL,O,"(12, 13)",
+1424,spurious,O,NUMERIC,,"(12, 12)"
+1426,wrong_type,FACILITY,ORG,"(32, 32)","(32, 32)"
+1426,wrong_type,FACILITY,ORG,"(33, 36)","(33, 36)"
+1427,missed,ORDINAL,O,"(22, 22)",
+1427,spurious,O,PERSON,,"(78, 78)"
+1427,spurious,O,ORG,,"(81, 83)"
+1428,missed,PERSON,O,"(25, 25)",
+1428,missed,PERSON,O,"(26, 27)",
+1429,wrong_boundary,DATETIME,DATETIME,"(25, 30)","(27, 27)"
+1429,spurious,O,DATETIME,,"(28, 30)"
+1434,spurious,O,ORG,,"(9, 10)"
+1435,wrong_type,PERSON,NUMERIC,"(15, 15)","(15, 15)"
+1435,spurious,O,ORG,,"(13, 14)"
+1437,spurious,O,PERSON,,"(60, 60)"
+1439,wrong_boundary,LANGUAGE,LANGUAGE,"(10, 20)","(10, 16)"
+1439,wrong_boundary,GPE,GPE,"(42, 47)","(42, 43)"
+1439,wrong_boundary,LOC,LOC,"(51, 54)","(51, 51)"
+1439,missed,NAT_REL_POL,O,"(55, 55)",
+1439,missed,NAT_REL_POL,O,"(56, 56)",
+1439,spurious,O,GPE,,"(44, 47)"
+1440,wrong_type,LOC,FACILITY,"(22, 30)","(22, 30)"
+1440,wrong_type,LOC,FACILITY,"(15, 19)","(15, 19)"
+1441,spurious,O,ORG,,"(45, 48)"
+1442,missed,PERSON,O,"(25, 25)",
+1442,spurious,O,PERSON,,"(61, 61)"
+1446,missed,PERSON,O,"(21, 21)",
+1448,wrong_boundary,WORK_OF_ART,WORK_OF_ART,"(14, 17)","(14, 29)"
+1448,wrong_boundary,ORG,ORG,"(39, 41)","(40, 41)"
+1448,missed,PERSON,O,"(21, 21)",
+1448,missed,PERSON,O,"(22, 22)",
+1448,missed,PERSON,O,"(24, 29)",
+1449,wrong_boundary,PERSON,PERSON,"(24, 38)","(25, 38)"
+1449,missed,PERSON,O,"(20, 20)",
+1449,missed,PERSON,O,"(21, 21)",
+1449,missed,PERSON,O,"(22, 22)",
+1449,missed,PERSON,O,"(23, 23)",
+1449,spurious,O,PERSON,,"(50, 50)"
+1451,missed,WORK_OF_ART,O,"(86, 97)",
+1451,spurious,O,PERSON,,"(50, 50)"
+1451,spurious,O,PERSON,,"(51, 52)"
+1451,spurious,O,PERSON,,"(90, 90)"
+1452,missed,NUMERIC,O,"(25, 25)",
+1455,spurious,O,PERSON,,"(17, 17)"
+1459,missed,NAT_REL_POL,O,"(14, 18)",
+1461,wrong_type,WORK_OF_ART,PERSON,"(14, 18)","(14, 18)"
+1468,missed,PERSON,O,"(12, 12)",
+1469,wrong_type,WORK_OF_ART,ORG,"(25, 31)","(25, 31)"
+1470,wrong_boundary,ORG,ORG,"(28, 30)","(28, 31)"
+1470,missed,GPE,O,"(31, 31)",
+1474,missed,FACILITY,O,"(22, 25)",
+1474,spurious,O,LOC,,"(22, 23)"
+1479,wrong_boundary,ORG,ORG,"(18, 26)","(18, 27)"
+1479,missed,GPE,O,"(27, 27)",
+1481,spurious,O,PERSON,,"(14, 14)"
+1481,spurious,O,PERSON,,"(36, 36)"
+1483,wrong_type,LOC,GPE,"(26, 28)","(26, 28)"
+1484,wrong_boundary,EVENT,EVENT,"(6, 9)","(6, 8)"
+1486,wrong_boundary,ORG,ORG,"(7, 16)","(7, 14)"
+1486,spurious,O,GPE,,"(16, 16)"
+1489,missed,NUMERIC,O,"(20, 20)",
+1489,missed,PERSON,O,"(26, 26)",
+1489,missed,PERSON,O,"(27, 28)",
+1489,missed,LOC,O,"(45, 45)",
+1489,missed,NUMERIC,O,"(55, 55)",
+1490,wrong_boundary,PERSON,PERSON,"(7, 9)","(5, 9)"
+1490,spurious,O,PERSON,,"(3, 3)"
+1490,spurious,O,PERSON,,"(4, 4)"
+1490,spurious,O,PERSON,,"(29, 30)"
+1492,missed,GPE,O,"(16, 16)",
+1492,missed,GPE,O,"(17, 17)",
+1492,missed,DATETIME,O,"(37, 37)",
+1492,missed,NAT_REL_POL,O,"(69, 70)",
+1492,spurious,O,ORG,,"(3, 19)"
+1497,missed,PERSON,O,"(8, 9)",
+1498,missed,DATETIME,O,"(14, 14)",
+1499,spurious,O,PERSON,,"(20, 23)"
+1499,spurious,O,DATETIME,,"(48, 48)"
+1499,spurious,O,DATETIME,,"(49, 51)"
+1500,missed,ORG,O,"(79, 82)",
+1500,missed,NUMERIC,O,"(87, 87)",
+1503,spurious,O,PERSON,,"(3, 4)"
+1505,missed,ORG,O,"(21, 21)",
+1505,missed,ORG,O,"(22, 22)",
+1505,missed,ORG,O,"(23, 23)",
+1505,missed,ORG,O,"(24, 26)",
+1506,missed,GPE,O,"(14, 16)",
+1507,wrong_boundary,NAT_REL_POL,NAT_REL_POL,"(38, 41)","(38, 46)"
+1507,missed,NAT_REL_POL,O,"(42, 46)",
+1510,spurious,O,WORK_OF_ART,,"(10, 12)"
+1511,missed,NUMERIC,O,"(10, 10)",
+1513,missed,NAT_REL_POL,O,"(22, 26)",
+1514,wrong_boundary,PERIOD,PERIOD,"(21, 27)","(21, 23)"
+1515,missed,WORK_OF_ART,O,"(3, 12)",
+1515,spurious,O,PERSON,,"(3, 5)"
+1520,wrong_boundary,PERSON,PERSON,"(96, 97)","(96, 96)"
+1520,missed,NAT_REL_POL,O,"(101, 102)",
+1521,wrong_boundary,DATETIME,DATETIME,"(15, 19)","(17, 19)"
+1522,missed,EVENT,O,"(2, 2)",
+1522,missed,EVENT,O,"(3, 3)",
+1522,missed,EVENT,O,"(4, 15)",
+1529,wrong_boundary,ORG,ORG,"(15, 35)","(15, 27)"
+1536,wrong_boundary,PERSON,PERSON,"(2, 2)","(2, 3)"
+1539,wrong_boundary,ORG,ORG,"(47, 59)","(47, 57)"
+1542,wrong_boundary,DATETIME,DATETIME,"(23, 27)","(25, 27)"
+1545,spurious,O,PERSON,,"(3, 3)"
+1545,spurious,O,PERSON,,"(4, 5)"
+1545,spurious,O,NAT_REL_POL,,"(6, 7)"
+1545,spurious,O,DATETIME,,"(27, 27)"
+1546,missed,PERSON,O,"(20, 20)",
+1546,missed,PERSON,O,"(21, 21)",
+1547,missed,DATETIME,O,"(15, 22)",
+1548,wrong_boundary,FACILITY,FACILITY,"(2, 5)","(2, 3)"
+1548,wrong_boundary,PERSON,PERSON,"(34, 44)","(34, 37)"
+1548,spurious,O,GPE,,"(5, 5)"
+1548,spurious,O,PERSON,,"(38, 38)"
+1548,spurious,O,PERSON,,"(39, 39)"
+1548,spurious,O,PERSON,,"(40, 40)"
+1548,spurious,O,PERSON,,"(41, 44)"
+1550,missed,PERSON,O,"(39, 40)",
+1550,missed,FACILITY,O,"(77, 80)",
+1550,spurious,O,GPE,,"(79, 80)"
+1554,missed,DATETIME,O,"(3, 5)",
+1554,missed,DATETIME,O,"(7, 8)",
+1555,wrong_type,LOC,GPE,"(13, 14)","(13, 14)"
+1555,wrong_boundary,ORG,ORG,"(31, 36)","(31, 35)"
+1555,spurious,O,NAT_REL_POL,,"(36, 36)"
+1556,spurious,O,ORG,,"(2, 3)"
+1560,spurious,O,DATETIME,,"(35, 36)"
+1561,missed,DATETIME,O,"(33, 34)",
+1562,wrong_boundary,DATETIME,DATETIME,"(33, 37)","(33, 34)"
+1564,wrong_type,ORG,FACILITY,"(2, 3)","(2, 3)"
+1565,wrong_boundary,NAT_REL_POL,NAT_REL_POL,"(19, 20)","(19, 22)"
+1565,missed,NAT_REL_POL,O,"(21, 22)",
+1567,wrong_boundary,PERSON,PERSON,"(14, 15)","(14, 16)"
+1569,missed,PERSON,O,"(50, 51)",
+1570,wrong_boundary,DATETIME,DATETIME,"(29, 33)","(29, 29)"
+1570,spurious,O,DATETIME,,"(31, 33)"
+1575,spurious,O,ORDINAL,,"(16, 16)"
+1577,missed,ORG,O,"(9, 17)",
+1577,missed,ORG,O,"(29, 35)",
+1577,spurious,O,PERSON,,"(29, 31)"
+1578,missed,ORG,O,"(17, 20)",
+1582,spurious,O,ORG,,"(26, 26)"
+1582,spurious,O,ORG,,"(27, 29)"
+1583,wrong_type,NUMERIC,QUANTITY,"(45, 45)","(45, 45)"
+1583,wrong_type,LOC,GPE,"(11, 11)","(11, 11)"
+1585,spurious,O,PERSON,,"(8, 8)"
+1585,spurious,O,PERSON,,"(9, 9)"
+1586,wrong_boundary,PERSON,PERSON,"(10, 11)","(10, 14)"
+1586,missed,PERSON,O,"(12, 14)",
+1587,spurious,O,PERSON,,"(134, 134)"
+1588,wrong_type,FACILITY,ORG,"(8, 19)","(8, 19)"
+1588,wrong_type,ORG,FACILITY,"(21, 21)","(21, 21)"
+1588,wrong_type,ORG,FACILITY,"(22, 23)","(22, 23)"
+1590,missed,ORG,O,"(22, 29)",
+1592,missed,EVENT,O,"(9, 9)",
+1592,missed,EVENT,O,"(10, 16)",
+1593,wrong_type,ORDINAL,DATETIME,"(3, 7)","(3, 7)"
+1593,wrong_type,ORDINAL,DATETIME,"(2, 2)","(2, 2)"
+1593,wrong_boundary,PERSON,PERSON,"(35, 35)","(35, 38)"
+1593,wrong_boundary,PERSON,PERSON,"(40, 44)","(40, 51)"
+1593,missed,PERSON,O,"(36, 38)",
+1593,missed,PERSON,O,"(46, 46)",
+1593,missed,PERSON,O,"(47, 47)",
+1593,missed,PERSON,O,"(48, 49)",
+1597,spurious,O,PERSON,,"(33, 34)"
+1601,wrong_boundary,LOC,LOC,"(9, 31)","(9, 18)"
+1601,spurious,O,LOC,,"(20, 31)"
+1604,wrong_boundary,PERSON,PERSON,"(12, 13)","(13, 13)"
+1604,missed,PERSON,O,"(11, 11)",
+1604,missed,WORK_OF_ART,O,"(35, 40)",
+1604,missed,DATETIME,O,"(48, 48)",
+1604,missed,DATETIME,O,"(49, 49)",
+1604,missed,DATETIME,O,"(50, 50)",
+1604,spurious,O,PERSON,,"(35, 36)"
+1604,spurious,O,PERSON,,"(69, 69)"
+1604,spurious,O,PERSON,,"(70, 74)"
+1604,spurious,O,PERSON,,"(78, 80)"
+1604,spurious,O,PERSON,,"(83, 83)"
+1604,spurious,O,PERSON,,"(84, 84)"
+1604,spurious,O,PERSON,,"(85, 87)"
+1605,wrong_type,FACILITY,ORG,"(82, 83)","(82, 83)"
+1606,wrong_boundary,ORG,ORG,"(15, 24)","(15, 18)"
+1606,spurious,O,PERSON,,"(19, 19)"
+1606,spurious,O,GPE,,"(22, 24)"
+1607,missed,PERSON,O,"(64, 64)",
+1607,missed,PERSON,O,"(65, 66)",
+1608,missed,ORG,O,"(13, 13)",
+1612,wrong_boundary,LOC,LOC,"(32, 41)","(32, 36)"
+1612,spurious,O,LOC,,"(37, 37)"
+1612,spurious,O,LOC,,"(38, 38)"
+1612,spurious,O,LOC,,"(39, 41)"
+1614,wrong_boundary,LOC,LOC,"(13, 14)","(13, 13)"
+1615,missed,LOC,O,"(32, 38)",
+1616,missed,ORG,O,"(13, 13)",
+1616,missed,ORG,O,"(79, 79)",
+1616,spurious,O,PERSON,,"(73, 73)"
+1618,wrong_boundary,PERIOD,PERIOD,"(3, 11)","(7, 11)"
+1618,missed,PERIOD,O,"(13, 17)",
+1618,missed,PERSON,O,"(29, 29)",
+1619,missed,EVENT,O,"(33, 40)",
+1620,wrong_boundary,PERSON,PERSON,"(13, 25)","(13, 13)"
+1620,wrong_boundary,WORK_OF_ART,WORK_OF_ART,"(43, 52)","(41, 52)"
+1620,spurious,O,PERSON,,"(17, 17)"
+1620,spurious,O,PERSON,,"(18, 25)"
+1620,spurious,O,WORK_OF_ART,,"(40, 40)"
+1621,spurious,O,NUMERIC,,"(2, 2)"
+1621,spurious,O,PERSON,,"(26, 26)"
+1622,missed,PERSON,O,"(3, 4)",
+1625,missed,GPE,O,"(50, 50)",
+1625,spurious,O,LOC,,"(50, 53)"
+1630,wrong_boundary,EVENT,EVENT,"(97, 101)","(97, 97)"
+1630,missed,EVENT,O,"(42, 50)",
+1630,missed,EVENT,O,"(55, 63)",
+1630,missed,EVENT,O,"(105, 109)",
+1631,wrong_boundary,DATETIME,DATETIME,"(10, 13)","(10, 12)"
+1636,missed,WORK_OF_ART,O,"(19, 19)",
+1636,missed,WORK_OF_ART,O,"(20, 20)",
+1636,missed,WORK_OF_ART,O,"(21, 27)",
+1637,wrong_boundary,DATETIME,DATETIME,"(3, 6)","(3, 3)"
+1637,wrong_boundary,EVENT,EVENT,"(53, 58)","(53, 53)"
+1637,spurious,O,NUMERIC,,"(55, 55)"
+1638,missed,EVENT,O,"(30, 46)",
+1639,wrong_boundary,DATETIME,DATETIME,"(47, 53)","(47, 48)"
+1643,missed,LANGUAGE,O,"(35, 39)",
+1643,spurious,O,DATETIME,,"(32, 32)"
+1646,wrong_type,WORK_OF_ART,LOC,"(35, 35)","(35, 35)"
+1646,wrong_type,WORK_OF_ART,LOC,"(34, 34)","(34, 34)"
+1647,wrong_type,FACILITY,GPE,"(21, 21)","(21, 21)"
+1649,wrong_boundary,PERSON,PERSON,"(27, 32)","(27, 27)"
+1649,missed,PERSON,O,"(22, 22)",
+1649,missed,PERSON,O,"(23, 23)",
+1649,spurious,O,PERSON,,"(28, 32)"
+1650,spurious,O,PERSON,,"(6, 6)"
+1652,wrong_boundary,DATETIME,DATETIME,"(15, 19)","(18, 19)"
+1653,wrong_type,LOC,GPE,"(21, 21)","(21, 21)"
+1655,missed,LANGUAGE,O,"(60, 61)",
+1655,spurious,O,NAT_REL_POL,,"(21, 22)"
+1655,spurious,O,PERSON,,"(38, 38)"
+1659,wrong_boundary,DATETIME,DATETIME,"(36, 48)","(36, 39)"
+1659,wrong_boundary,PERSON,PERSON,"(56, 57)","(56, 60)"
+1659,wrong_boundary,DATETIME,DATETIME,"(115, 124)","(115, 117)"
+1659,spurious,O,DATETIME,,"(45, 48)"
+1659,spurious,O,FACILITY,,"(138, 138)"
+1659,spurious,O,FACILITY,,"(139, 139)"
+1659,spurious,O,FACILITY,,"(140, 140)"
+1659,spurious,O,FACILITY,,"(141, 141)"
+1660,wrong_boundary,LOC,LOC,"(32, 45)","(32, 40)"
+1661,wrong_boundary,WORK_OF_ART,WORK_OF_ART,"(24, 26)","(24, 24)"
+1661,spurious,O,GPE,,"(26, 26)"
+1661,spurious,O,PERSON,,"(80, 83)"
+1661,spurious,O,NAT_REL_POL,,"(135, 136)"
+1662,missed,GPE,O,"(30, 31)",
+1662,spurious,O,ORG,,"(26, 26)"
+1666,wrong_boundary,ORG,ORG,"(23, 33)","(30, 33)"
+1666,wrong_boundary,ORG,ORG,"(92, 101)","(92, 98)"
+1666,spurious,O,ORG,,"(99, 101)"
+1666,spurious,O,PERSON,,"(117, 117)"
+1667,spurious,O,PERSON,,"(13, 13)"
+1673,spurious,O,PERSON,,"(20, 20)"
+1673,spurious,O,PERSON,,"(21, 21)"
+1674,wrong_boundary,ORG,ORG,"(3, 10)","(3, 8)"
+1674,wrong_boundary,DATETIME,DATETIME,"(21, 29)","(21, 25)"
+1676,wrong_boundary,WORK_OF_ART,WORK_OF_ART,"(11, 21)","(10, 21)"
+1677,wrong_boundary,NAT_REL_POL,NAT_REL_POL,"(41, 41)","(41, 42)"
+1677,missed,PERSON,O,"(26, 26)",
+1677,missed,PERSON,O,"(27, 28)",
+1677,missed,NAT_REL_POL,O,"(30, 34)",
+1677,missed,NAT_REL_POL,O,"(42, 42)",
+1682,wrong_boundary,ORG,ORG,"(18, 24)","(18, 18)"
+1683,wrong_boundary,QUANTITY,QUANTITY,"(46, 55)","(46, 48)"
+1683,spurious,O,QUANTITY,,"(50, 55)"
+1684,missed,ORG,O,"(7, 7)",
+1684,missed,EVENT,O,"(15, 18)",
+1684,spurious,O,DATETIME,,"(18, 18)"
+1685,wrong_boundary,WORK_OF_ART,WORK_OF_ART,"(6, 7)","(4, 7)"
+1687,wrong_boundary,PERSON,PERSON,"(38, 42)","(38, 43)"
+1687,wrong_boundary,PERSON,PERSON,"(49, 56)","(49, 54)"
+1687,missed,PERSON,O,"(43, 43)",
+1687,spurious,O,GPE,,"(56, 56)"
+1688,missed,DATETIME,O,"(22, 25)",
+1688,missed,PERSON,O,"(31, 31)",
+1688,missed,PERSON,O,"(34, 34)",
+1688,spurious,O,PERSON,,"(5, 5)"
+1690,spurious,O,PERSON,,"(46, 46)"
+1694,spurious,O,FACILITY,,"(6, 8)"
+1697,wrong_boundary,DATETIME,DATETIME,"(11, 12)","(11, 11)"
+1697,spurious,O,PERSON,,"(41, 41)"
+1697,spurious,O,PERSON,,"(42, 43)"
+1700,wrong_type,ORG,PERSON,"(17, 17)","(17, 17)"
+1700,wrong_type,ORG,PERSON,"(16, 16)","(16, 16)"
+1700,missed,ORG,O,"(18, 29)",
+1700,spurious,O,PERSON,,"(18, 23)"
+1700,spurious,O,PERSON,,"(25, 28)"
+1701,missed,DATETIME,O,"(45, 45)",
+1701,spurious,O,ORG,,"(29, 33)"
+1707,wrong_boundary,DATETIME,DATETIME,"(12, 13)","(12, 12)"
+1708,missed,NAT_REL_POL,O,"(42, 44)",
+1710,spurious,O,PERSON,,"(46, 46)"
+1711,missed,PERSON,O,"(107, 107)",
+1711,missed,NUMERIC,O,"(201, 201)",
+1717,wrong_boundary,PERSON,PERSON,"(39, 41)","(39, 39)"
+1717,missed,PERSON,O,"(33, 33)",
+1717,spurious,O,PERSON,,"(40, 41)"
+1718,wrong_boundary,GPE,GPE,"(15, 16)","(15, 15)"
+1723,wrong_boundary,PERIOD,PERIOD,"(6, 9)","(7, 9)"
+1723,missed,PERIOD,O,"(4, 4)",
+1723,missed,PERIOD,O,"(5, 5)",
+1723,missed,EVENT,O,"(11, 11)",
+1723,missed,EVENT,O,"(12, 19)",
+1723,spurious,O,ORDINAL,,"(13, 19)"
+1724,missed,ORDINAL,O,"(3, 4)",
+1724,spurious,O,DATETIME,,"(3, 6)"
+1725,spurious,O,PERSON,,"(28, 28)"
+1725,spurious,O,PERSON,,"(29, 29)"
+1727,missed,GPE,O,"(34, 36)",
+1727,spurious,O,LOC,,"(34, 34)"
+1729,spurious,O,EVENT,,"(37, 37)"
+1730,missed,DATETIME,O,"(36, 39)",
+1730,missed,FACILITY,O,"(43, 44)",
+1730,spurious,O,NUMERIC,,"(36, 36)"
+1730,spurious,O,GPE,,"(43, 43)"
+1732,wrong_boundary,LOC,LOC,"(11, 13)","(11, 11)"
+1732,wrong_boundary,QUANTITY,QUANTITY,"(24, 31)","(24, 28)"
+1732,wrong_boundary,LOC,LOC,"(36, 39)","(36, 37)"
+1732,missed,LOC,O,"(5, 9)",
+1733,wrong_type,WORK_OF_ART,FACILITY,"(8, 9)","(8, 9)"
+1734,missed,ORG,O,"(3, 3)",
+1734,missed,ORG,O,"(4, 4)",
+1734,missed,ORG,O,"(5, 5)",
+1734,missed,ORG,O,"(6, 12)",
+1737,missed,PERSON,O,"(7, 7)",
+1737,missed,PERSON,O,"(26, 26)",
+1737,spurious,O,NUMERIC,,"(15, 15)"
+1737,spurious,O,PERSON,,"(20, 20)"
+1738,wrong_boundary,QUANTITY,QUANTITY,"(28, 31)","(28, 28)"
+1738,spurious,O,QUANTITY,,"(30, 31)"
+1740,missed,PERSON,O,"(29, 29)",
+1740,missed,DATETIME,O,"(34, 37)",
+1740,spurious,O,ORDINAL,,"(34, 35)"
+1740,spurious,O,PERSON,,"(88, 88)"
+1740,spurious,O,PERSON,,"(89, 89)"
+1740,spurious,O,PERSON,,"(134, 135)"
+1740,spurious,O,PERSON,,"(146, 146)"
+1746,wrong_boundary,PERSON,PERSON,"(4, 8)","(4, 11)"
+1750,missed,PERSON,O,"(25, 27)",
+1753,missed,ORG,O,"(6, 8)",
+1755,wrong_boundary,PERSON,PERSON,"(9, 11)","(9, 14)"
+1755,wrong_boundary,ORG,ORG,"(15, 24)","(15, 23)"
+1755,missed,PERSON,O,"(14, 14)",
+1758,wrong_boundary,ORG,ORG,"(11, 13)","(13, 13)"
+1758,missed,ORG,O,"(6, 6)",
+1758,missed,ORG,O,"(7, 7)",
+1758,missed,ORG,O,"(8, 8)",
+1758,missed,ORG,O,"(9, 9)",
+1758,missed,ORG,O,"(10, 10)",
+1760,wrong_boundary,DATETIME,DATETIME,"(30, 39)","(30, 31)"
+1760,missed,ORG,O,"(3, 3)",
+1760,missed,ORG,O,"(4, 11)",
+1760,spurious,O,DATETIME,,"(35, 37)"
+1762,missed,ORG,O,"(26, 26)",
+1762,missed,ORG,O,"(27, 28)",
+1763,wrong_type,ORG,GPE,"(65, 65)","(65, 65)"
+1763,wrong_boundary,ORG,ORG,"(148, 155)","(150, 155)"
+1763,missed,ORG,O,"(120, 120)",
+1763,missed,ORG,O,"(121, 125)",
+1763,missed,ORG,O,"(147, 147)",
+1763,spurious,O,ORG,,"(47, 47)"
+1763,spurious,O,ORG,,"(90, 93)"
+1763,spurious,O,NAT_REL_POL,,"(110, 110)"
+1764,wrong_boundary,DATETIME,DATETIME,"(40, 55)","(42, 42)"
+1764,spurious,O,DATETIME,,"(44, 44)"
+1764,spurious,O,DATETIME,,"(45, 45)"
+1765,wrong_boundary,PERSON,PERSON,"(18, 18)","(18, 20)"
+1765,spurious,O,DATETIME,,"(10, 12)"
+1769,missed,DATETIME,O,"(10, 10)",
+1770,wrong_boundary,DATETIME,DATETIME,"(68, 70)","(66, 70)"
+1770,spurious,O,DATETIME,,"(65, 65)"
+1771,spurious,O,PERSON,,"(10, 10)"
+1777,wrong_boundary,QUANTITY,QUANTITY,"(20, 20)","(20, 21)"
+1779,missed,GPE,O,"(16, 16)",
+1779,missed,GPE,O,"(17, 18)",
+1784,wrong_type,GPE,PERSON,"(84, 84)","(84, 84)"
+1784,wrong_type,GPE,PERSON,"(81, 81)","(81, 81)"
+1784,wrong_type,GPE,PERSON,"(83, 83)","(83, 83)"
+1784,wrong_type,GPE,PERSON,"(85, 86)","(85, 86)"
+1784,wrong_type,GPE,PERSON,"(82, 82)","(82, 82)"
+1784,wrong_type,GPE,PERSON,"(69, 73)","(69, 73)"
+1784,missed,WORK_OF_ART,O,"(28, 30)",
+1784,spurious,O,DATETIME,,"(2, 3)"
+1785,wrong_type,WORK_OF_ART,ORG,"(40, 45)","(40, 45)"
+1785,missed,WORK_OF_ART,O,"(69, 69)",
+1785,missed,WORK_OF_ART,O,"(70, 70)",
+1785,missed,WORK_OF_ART,O,"(71, 73)",
+1786,missed,PERSON,O,"(21, 22)",
+1786,spurious,O,PERSON,,"(20, 20)"
+1788,wrong_boundary,DATETIME,DATETIME,"(22, 26)","(22, 22)"
+1788,missed,FACILITY,O,"(29, 32)",
+1789,missed,GPE,O,"(24, 24)",
+1789,missed,GPE,O,"(25, 28)",
+1789,spurious,O,FACILITY,,"(13, 13)"
+1789,spurious,O,FACILITY,,"(14, 14)"
+1789,spurious,O,FACILITY,,"(15, 15)"
+1789,spurious,O,FACILITY,,"(16, 28)"
+1790,wrong_boundary,DATETIME,DATETIME,"(16, 19)","(16, 16)"
+1790,spurious,O,PERSON,,"(38, 38)"
+1792,wrong_boundary,PERSON,PERSON,"(22, 22)","(21, 25)"
+1792,missed,PERSON,O,"(23, 25)",
+1794,wrong_type,GPE,ORG,"(18, 18)","(18, 18)"
+1795,wrong_boundary,PERSON,PERSON,"(53, 58)","(53, 53)"
+1795,missed,WORK_OF_ART,O,"(20, 28)",
+1795,missed,NUMERIC,O,"(32, 32)",
+1795,spurious,O,GPE,,"(54, 54)"
+1795,spurious,O,PERSON,,"(55, 58)"
+1801,missed,DATETIME,O,"(3, 4)",
+1802,spurious,O,PERSON,,"(44, 44)"
+1802,spurious,O,PERSON,,"(45, 45)"
+1802,spurious,O,PERSON,,"(46, 46)"
+1802,spurious,O,DATETIME,,"(49, 49)"
+1803,spurious,O,NUMERIC,,"(74, 74)"
+1807,missed,QUANTITY,O,"(4, 6)",
+1807,spurious,O,NUMERIC,,"(4, 4)"
+1809,missed,PERSON,O,"(10, 13)",
+1817,wrong_boundary,ORG,ORG,"(22, 26)","(22, 23)"
+1817,missed,DATETIME,O,"(46, 47)",
+1817,missed,ORG,O,"(70, 70)",
+1817,spurious,O,NAT_REL_POL,,"(17, 17)"
+1817,spurious,O,GPE,,"(26, 26)"
+1818,wrong_type,DATETIME,PERIOD,"(18, 18)","(18, 18)"
+1818,wrong_boundary,DATETIME,DATETIME,"(62, 66)","(62, 64)"
+1818,missed,DATETIME,O,"(20, 20)",
+1818,missed,DATETIME,O,"(22, 22)",
+1818,missed,DATETIME,O,"(69, 70)",
+1818,spurious,O,PERSON,,"(41, 41)"
+1819,wrong_type,ORG,NUMERIC,"(39, 39)","(39, 39)"
+1819,wrong_boundary,ORG,ORG,"(9, 37)","(30, 32)"
+1819,missed,ORG,O,"(8, 8)",
+1819,missed,ORG,O,"(40, 46)",
+1819,spurious,O,NUMERIC,,"(40, 40)"
+1819,spurious,O,GPE,,"(43, 43)"
+1819,spurious,O,GPE,,"(44, 44)"
+1819,spurious,O,NUMERIC,,"(45, 45)"
+1820,missed,ORG,O,"(7, 10)",
+1820,missed,ORG,O,"(40, 41)",
+1821,wrong_boundary,GPE,GPE,"(40, 44)","(40, 40)"
+1821,missed,ORG,O,"(69, 69)",
+1821,missed,ORG,O,"(70, 72)",
+1822,wrong_type,WORK_OF_ART,PERSON,"(78, 80)","(78, 80)"
+1822,wrong_boundary,PERSON,PERSON,"(186, 195)","(186, 192)"
+1822,spurious,O,PERSON,,"(195, 195)"
+1823,wrong_boundary,DATETIME,DATETIME,"(31, 40)","(31, 31)"
+1823,spurious,O,DATETIME,,"(33, 40)"
+1824,missed,WORK_OF_ART,O,"(23, 28)",
+1824,spurious,O,PERSON,,"(48, 50)"
+1828,missed,GPE,O,"(98, 98)",
+1829,missed,NAT_REL_POL,O,"(26, 27)",
+1829,missed,NAT_REL_POL,O,"(28, 28)",
+1829,missed,WORK_OF_ART,O,"(58, 63)",
+1829,missed,DATETIME,O,"(78, 82)",
+1829,spurious,O,WORK_OF_ART,,"(105, 105)"
+1829,spurious,O,WORK_OF_ART,,"(106, 106)"
+1829,spurious,O,WORK_OF_ART,,"(107, 115)"
+1830,wrong_type,LOC,GPE,"(34, 34)","(34, 34)"
+1830,wrong_type,LOC,GPE,"(35, 39)","(35, 39)"
+1830,wrong_boundary,WORK_OF_ART,WORK_OF_ART,"(6, 16)","(6, 6)"
+1831,wrong_boundary,WORK_OF_ART,WORK_OF_ART,"(42, 53)","(42, 42)"
+1831,spurious,O,WORK_OF_ART,,"(46, 46)"
+1831,spurious,O,WORK_OF_ART,,"(47, 53)"
+1834,missed,PERSON,O,"(38, 38)",
+1834,spurious,O,ORG,,"(41, 44)"
+1836,wrong_boundary,ORG,ORG,"(17, 17)","(17, 18)"
+1836,missed,GPE,O,"(18, 18)",
+1836,spurious,O,DATETIME,,"(14, 14)"
+1840,wrong_boundary,PERSON,PERSON,"(37, 41)","(37, 39)"
+1840,missed,PERSON,O,"(10, 14)",
+1840,spurious,O,PERSON,,"(41, 41)"
+1841,missed,DATETIME,O,"(18, 20)",
+1843,wrong_boundary,PERSON,PERSON,"(33, 36)","(33, 39)"
+1843,missed,ORG,O,"(26, 29)",
+1843,missed,ORG,O,"(31, 32)",
+1843,missed,NAT_REL_POL,O,"(38, 39)",
+1843,missed,ORG,O,"(61, 61)",
+1843,missed,ORG,O,"(62, 62)",
+1844,wrong_boundary,PERSON,PERSON,"(15, 16)","(15, 18)"
+1845,spurious,O,PERSON,,"(48, 50)"
+1847,wrong_boundary,DATETIME,DATETIME,"(61, 66)","(61, 61)"
+1847,spurious,O,DATETIME,,"(63, 66)"
+1848,wrong_boundary,PERSON,PERSON,"(14, 29)","(14, 23)"
+1848,spurious,O,PERSON,,"(25, 29)"
+1849,wrong_boundary,NAT_REL_POL,NAT_REL_POL,"(33, 34)","(33, 36)"
+1849,missed,NAT_REL_POL,O,"(36, 36)",
+1850,spurious,O,EVENT,,"(35, 35)"
+1851,wrong_boundary,PERSON,PERSON,"(4, 5)","(4, 6)"
+1851,missed,QUANTITY,O,"(76, 82)",
+1851,spurious,O,GPE,,"(67, 70)"
+1851,spurious,O,LOC,,"(76, 78)"
+1854,missed,NUMERIC,O,"(63, 66)",
+1854,spurious,O,NUMERIC,,"(76, 76)"
+1858,missed,DATETIME,O,"(12, 13)",
+1858,spurious,O,ORDINAL,,"(12, 12)"
+1860,wrong_boundary,PERSON,PERSON,"(19, 21)","(19, 22)"
+1862,missed,DATETIME,O,"(73, 75)",
+1863,wrong_boundary,LOC,LOC,"(3, 3)","(2, 12)"
+1863,missed,LOC,O,"(4, 4)",
+1863,missed,LOC,O,"(5, 5)",
+1863,missed,LOC,O,"(6, 12)",
+1866,wrong_boundary,EVENT,EVENT,"(4, 7)","(4, 4)"
+1866,missed,DATETIME,O,"(13, 13)",
+1868,wrong_boundary,PERIOD,PERIOD,"(19, 21)","(19, 19)"
+1868,wrong_boundary,EVENT,EVENT,"(68, 73)","(68, 69)"
+1868,wrong_boundary,MONEY,MONEY,"(110, 111)","(110, 112)"
+1868,missed,DATETIME,O,"(112, 112)",
+1869,wrong_boundary,LOC,LOC,"(14, 15)","(14, 19)"
+1869,missed,LOC,O,"(17, 18)",
+1869,spurious,O,DATETIME,,"(43, 43)"
+1870,wrong_type,FACILITY,LOC,"(48, 50)","(48, 50)"
+1870,missed,LOC,O,"(4, 6)",
+1870,missed,LOC,O,"(13, 13)",
+1870,missed,LOC,O,"(14, 20)",
+1871,wrong_boundary,ORG,ORG,"(9, 14)","(9, 9)"
+1871,wrong_boundary,DATETIME,DATETIME,"(24, 32)","(24, 24)"
+1871,spurious,O,ORG,,"(11, 14)"
+1872,wrong_boundary,DATETIME,DATETIME,"(2, 8)","(2, 4)"
+1872,missed,ORG,O,"(25, 25)",
+1872,missed,ORG,O,"(26, 31)",
+1872,missed,ORG,O,"(34, 37)",
+1872,spurious,O,DATETIME,,"(7, 8)"
+1872,spurious,O,NAT_REL_POL,,"(37, 37)"
+1873,wrong_type,MONEY,QUANTITY,"(68, 68)","(68, 68)"
+1873,missed,DATETIME,O,"(51, 51)",
+1873,missed,DATETIME,O,"(52, 55)",
+1875,wrong_type,ORG,GPE,"(4, 5)","(4, 5)"
+1875,wrong_boundary,PERSON,PERSON,"(16, 18)","(16, 16)"
+1875,wrong_boundary,ORG,ORG,"(57, 67)","(65, 67)"
+1875,wrong_boundary,PERSON,PERSON,"(83, 86)","(83, 84)"
+1875,missed,ORG,O,"(56, 56)",
+1875,missed,PERSON,O,"(94, 98)",
+1875,spurious,O,PERSON,,"(33, 33)"
+1875,spurious,O,PERSON,,"(85, 86)"
+1877,wrong_type,ORG,PERSON,"(33, 35)","(33, 35)"
+1877,wrong_type,ORG,PERSON,"(32, 32)","(32, 32)"
+1877,missed,ORG,O,"(45, 48)",
+1877,spurious,O,PERSON,,"(43, 43)"
+1878,wrong_type,GPE,LOC,"(84, 84)","(84, 84)"
+1879,wrong_boundary,PERSON,PERSON,"(9, 17)","(9, 18)"
+1883,wrong_boundary,DATETIME,DATETIME,"(2, 5)","(5, 9)"
+1883,wrong_boundary,FACILITY,FACILITY,"(62, 75)","(62, 62)"
+1883,missed,DATETIME,O,"(7, 9)",
+1883,missed,PERIOD,O,"(25, 33)",
+1883,spurious,O,PERSON,,"(57, 57)"
+1884,wrong_boundary,DATETIME,DATETIME,"(30, 32)","(31, 32)"
+1884,missed,DATETIME,O,"(22, 28)",
+1884,missed,LOC,O,"(66, 68)",
+1884,spurious,O,ORDINAL,,"(22, 23)"
+1886,wrong_type,NUMERIC,PERSON,"(45, 46)","(45, 46)"
+1886,wrong_boundary,PERSON,PERSON,"(37, 37)","(37, 38)"
+1886,spurious,O,PERSON,,"(24, 24)"
+1888,spurious,O,PERSON,,"(14, 14)"
+1890,spurious,O,NUMERIC,,"(38, 38)"
+1892,missed,DATETIME,O,"(4, 4)",
+1892,missed,PERSON,O,"(12, 13)",
+1892,spurious,O,PERSON,,"(9, 9)"
+1892,spurious,O,PERSON,,"(10, 11)"
+1893,wrong_boundary,NAT_REL_POL,NAT_REL_POL,"(73, 77)","(73, 73)"
+1893,missed,PERSON,O,"(14, 15)",
+1893,missed,NAT_REL_POL,O,"(42, 42)",
+1893,missed,NAT_REL_POL,O,"(43, 44)",
+1894,missed,PERIOD,O,"(15, 21)",
+1895,missed,EVENT,O,"(32, 37)",
+1897,wrong_type,WORK_OF_ART,EVENT,"(24, 25)","(24, 25)"
+1898,spurious,O,PERSON,,"(44, 45)"
+1898,spurious,O,PERSON,,"(59, 59)"
+1899,wrong_type,LOC,FACILITY,"(53, 59)","(53, 59)"
+1899,wrong_boundary,ORG,ORG,"(30, 35)","(30, 34)"
+1899,missed,ORG,O,"(43, 43)",
+1899,missed,ORG,O,"(44, 44)",
+1899,missed,ORG,O,"(45, 50)",
+1899,missed,PERSON,O,"(84, 88)",
+1899,missed,PERSON,O,"(101, 102)",
+1899,spurious,O,FACILITY,,"(29, 29)"
+1899,spurious,O,FACILITY,,"(41, 50)"
+1900,wrong_boundary,WORK_OF_ART,WORK_OF_ART,"(26, 34)","(26, 36)"
+1900,missed,WORK_OF_ART,O,"(36, 36)",
+1907,wrong_type,LOC,FACILITY,"(43, 44)","(43, 44)"
+1908,missed,LOC,O,"(34, 34)",
+1908,missed,LOC,O,"(35, 35)",
+1908,spurious,O,PERSON,,"(40, 41)"
+1909,wrong_boundary,GPE,GPE,"(11, 11)","(11, 12)"
+1909,wrong_boundary,PERSON,PERSON,"(24, 24)","(24, 25)"
+1909,missed,NAT_REL_POL,O,"(12, 12)",
+1910,spurious,O,PERSON,,"(4, 6)"
+1910,spurious,O,PERSON,,"(15, 16)"
+1915,wrong_type,PERSON,ORG,"(55, 55)","(55, 55)"
+1915,wrong_type,PERSON,ORG,"(56, 59)","(56, 59)"
+1915,spurious,O,NUMERIC,,"(27, 27)"
+1915,spurious,O,NUMERIC,,"(28, 28)"
+1915,spurious,O,NUMERIC,,"(29, 29)"
+1915,spurious,O,PERSON,,"(103, 103)"
+1917,wrong_type,WORK_OF_ART,EVENT,"(13, 18)","(13, 18)"
+1917,wrong_type,WORK_OF_ART,EVENT,"(12, 12)","(12, 12)"
+1918,wrong_boundary,PERSON,PERSON,"(16, 24)","(16, 19)"
+1918,spurious,O,PERSON,,"(20, 24)"
+1922,missed,QUANTITY,O,"(17, 19)",
+1922,spurious,O,NUMERIC,,"(17, 17)"
+1923,spurious,O,PERSON,,"(19, 19)"
+1923,spurious,O,PERSON,,"(20, 20)"
+1925,missed,GPE,O,"(19, 19)",
+1926,wrong_boundary,ORG,ORG,"(9, 11)","(9, 9)"
+1928,wrong_boundary,GPE,GPE,"(23, 24)","(24, 24)"
+1928,missed,ORDINAL,O,"(9, 10)",
+1928,spurious,O,ORDINAL,,"(38, 38)"
+1930,spurious,O,ORG,,"(46, 47)"
+1933,wrong_type,ORDINAL,PERSON,"(15, 15)","(15, 15)"
+1938,wrong_boundary,NAT_REL_POL,NAT_REL_POL,"(18, 18)","(18, 19)"
+1939,spurious,O,PERSON,,"(67, 67)"
+1940,spurious,O,WORK_OF_ART,,"(3, 3)"
+1940,spurious,O,WORK_OF_ART,,"(4, 4)"
+1940,spurious,O,WORK_OF_ART,,"(5, 12)"
+1941,wrong_boundary,FACILITY,FACILITY,"(11, 12)","(11, 11)"
+1941,missed,GPE,O,"(5, 6)",
+1941,spurious,O,FACILITY,,"(5, 5)"
+1941,spurious,O,GPE,,"(12, 12)"
+1942,missed,PERSON,O,"(29, 29)",
+1948,wrong_boundary,PERSON,PERSON,"(18, 28)","(18, 23)"
+1951,wrong_boundary,PERSON,PERSON,"(32, 33)","(32, 34)"
+1952,missed,PERSON,O,"(11, 11)",
+1952,missed,DATETIME,O,"(22, 23)",
+1953,wrong_boundary,DATETIME,DATETIME,"(25, 36)","(25, 30)"
+1954,wrong_boundary,ORG,ORG,"(8, 10)","(8, 8)"
+1958,spurious,O,PERSON,,"(17, 17)"
+1963,wrong_boundary,LOC,LOC,"(46, 50)","(49, 50)"
+1963,missed,PERSON,O,"(28, 28)",
+1963,missed,PERSON,O,"(29, 29)",
+1964,missed,PERSON,O,"(28, 28)",
+1964,spurious,O,PERSON,,"(21, 23)"
+1966,spurious,O,LOC,,"(19, 19)"
+1966,spurious,O,LOC,,"(20, 20)"
+1966,spurious,O,LOC,,"(21, 24)"
+1966,spurious,O,LOC,,"(43, 43)"
+1969,wrong_boundary,PERSON,PERSON,"(19, 23)","(19, 22)"
+1969,missed,WORK_OF_ART,O,"(37, 37)",
+1969,missed,WORK_OF_ART,O,"(38, 63)",
+1969,missed,WORK_OF_ART,O,"(103, 103)",
+1969,missed,WORK_OF_ART,O,"(104, 111)",
+1974,wrong_boundary,DATETIME,DATETIME,"(37, 39)","(37, 37)"
+1974,spurious,O,DATETIME,,"(38, 39)"
+1977,wrong_boundary,DATETIME,DATETIME,"(9, 12)","(9, 9)"
+1977,spurious,O,DATETIME,,"(10, 12)"
+1979,missed,DATETIME,O,"(28, 31)",
+1979,missed,DATETIME,O,"(38, 38)",
+1979,missed,DATETIME,O,"(39, 43)",
+1980,missed,PERSON,O,"(26, 26)",
+1980,missed,PERSON,O,"(27, 27)",
+1980,missed,PERSON,O,"(28, 28)",
+1980,missed,PERSON,O,"(29, 31)",
+1984,wrong_boundary,PERSON,PERSON,"(7, 7)","(7, 8)"
+1984,wrong_boundary,NAT_REL_POL,NAT_REL_POL,"(22, 22)","(22, 26)"
+1984,missed,NAT_REL_POL,O,"(25, 26)",
+1985,wrong_boundary,DATETIME,DATETIME,"(27, 33)","(27, 29)"
+1986,missed,DATETIME,O,"(94, 94)",
+1986,missed,DATETIME,O,"(95, 96)",
+1986,missed,GPE,O,"(106, 106)",
+1987,missed,PERSON,O,"(25, 27)",
+1992,spurious,O,PERSON,,"(50, 57)"
+1994,missed,EVENT,O,"(26, 26)",
+1994,missed,EVENT,O,"(27, 35)",
+1994,spurious,O,DATETIME,,"(37, 39)"
+1997,wrong_boundary,DATETIME,DATETIME,"(42, 44)","(43, 44)"
+1997,missed,DATETIME,O,"(41, 41)",
+1998,wrong_boundary,PERSON,PERSON,"(30, 36)","(30, 32)"
+1998,spurious,O,PERSON,,"(33, 33)"
+1998,spurious,O,PERSON,,"(34, 34)"
+1998,spurious,O,PERSON,,"(35, 36)"
