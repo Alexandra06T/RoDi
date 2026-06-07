@@ -1,0 +1,5 @@
+model,display,family,avg_tokens_nd,avg_tokens_d,avg_fert_nd,avg_fert_d,avg_unk_nd,avg_unk_d,avg_scr_nd,avg_scr_d,avg_delta,avg_inflation
+mbert,mBERT,Multilingual,41.9856,43.6654,1.9536,2.0599,0.1342,0.1391,0.2301,0.2698,1.6798,0.0523
+ro_bert,RO-BERT,Monolingual,32.1889,30.9678,1.5226,1.4712,0.0378,0.0387,0.2196,0.2177,-1.2212,-0.034
+robert,RoBERT,Monolingual,36.1893,35.8707,1.668,1.6539,0.0054,0.0055,0.2358,0.2359,-0.3186,-0.0081
+xlmr,XLM-R,Multilingual,35.9086,37.4984,1.6865,1.779,0.0,0.0,0.2149,0.2278,1.5897,0.0523
