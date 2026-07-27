@@ -1,0 +1,5 @@
+stage,side,n_chars,n_nfd_codepoints,n_combining_in_raw,n_legacy_cedilla,n_nbsp,n_unusual_punct,n_not_nfc,n_is_nfd
+before,input,1379208,0,0,0,0,471,0,10000
+before,target,1379138,74000,0,0,1314,471,0,558
+after,input,1376494,0,0,0,0,471,0,10000
+after,target,1376424,74000,0,0,0,471,0,558

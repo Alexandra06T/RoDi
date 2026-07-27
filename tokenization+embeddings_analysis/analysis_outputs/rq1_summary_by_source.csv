@@ -1,0 +1,7 @@
+source,model,avg_tokens_nd,avg_tokens_d,avg_fert_nd,avg_fert_d,avg_unk_nd,avg_unk_d,avg_scr_nd,avg_scr_d,avg_delta,avg_inflation,display,family
+unknown_local_sample,mbert,40.099978,41.821309,1.95912,2.072076,0.123246,0.123246,0.230533,0.273243,1.721332,0.055448,mBERT,Multilingual
+unknown_local_sample,mt5,39.57515,42.59185,1.920002,2.083869,0.0,0.0,0.243563,0.254148,3.0167,0.085333,mT5,Multilingual
+unknown_local_sample,rembert,35.148297,35.75206,1.727553,1.781731,0.0,0.0,0.219956,0.235118,0.603763,0.028734,RemBERT,Multilingual
+unknown_local_sample,ro_bert,30.749499,29.585838,1.526577,1.47521,0.032732,0.032732,0.221849,0.219767,-1.163661,-0.033916,RO-BERT,Monolingual
+unknown_local_sample,robert,34.447005,34.133378,1.665613,1.65079,0.000891,0.000891,0.238421,0.238586,-0.313627,-0.008503,RoBERT,Monolingual
+unknown_local_sample,xlmr,34.343131,35.919394,1.693364,1.789972,0.0,0.0,0.216769,0.230522,1.576264,0.054321,XLM-R,Multilingual
