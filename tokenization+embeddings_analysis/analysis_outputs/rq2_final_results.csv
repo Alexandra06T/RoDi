@@ -1,5 +1,0 @@
-Model,Family,CLS sim mean,CLS sim std,CLS sim min,Mean-pool sim,Focus-word dist,Pearson r (density),Layer of min sim
-mBERT,Multilingual,0.95753,0.11909,-0.12218,0.90159,0.26422,-0.1873,12
-XLM-R,Multilingual,0.99926,0.00099,0.94291,0.99896,0.00599,-0.0436,12
-RO-BERT,Monolingual,0.92253,0.03486,0.64457,0.9106,0.17808,-0.1007,12
-RoBERT,Monolingual,0.92944,0.03077,0.73417,0.9336,0.08364,-0.1211,12
