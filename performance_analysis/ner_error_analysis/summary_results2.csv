@@ -1,0 +1,9 @@
+,run,eval,P,R,F1
+0,mbert_diac_first,diac,8.574,8.698,8.636
+1,mbert_diac_first,nodiac,8.214,8.225,822
+0,mbert_diac_second,diac,8.668,8.836,8.751
+1,mbert_diac_second,nodiac,833,8.408,8.369
+0,mbert_diac_third,diac,8.668,8.836,8.751
+1,mbert_diac_third,nodiac,833,8.408,8.369
+0,mbert_nodiac_second,diac,8.612,8.588,0.86
+1,mbert_nodiac_second,nodiac,8.641,8.693,8.667

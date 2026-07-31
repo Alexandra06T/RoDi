@@ -1,0 +1,17 @@
+modelkey_traincond,eval_cond,P,R,F1
+dbert_diac,diac,0.7855,0.7993,0.7923
+dbert_diac,nodiac,0.7645,0.772,0.7682
+dbert_nodiac,diac,0.798,0.8182,0.808
+dbert_nodiac,nodiac,0.8148,0.8549,0.8344
+mbert_diac,diac,0.8637,0.879,0.8713
+mbert_diac,nodiac,0.8291,0.8347,0.8319
+mbert_nodiac,diac,0.8566,0.8622,0.8593
+mbert_nodiac,nodiac,0.8609,0.8719,0.8664
+mt5_diac,diac,0.819,0.852,0.8352
+mt5_diac,nodiac,0.8004,0.8328,0.8163
+mt5_nodiac,diac,0.796,0.8327,0.8139
+mt5_nodiac,nodiac,0.8049,0.844,0.824
+robert_diac,diac,0.8591,0.8783,0.8685
+robert_diac,nodiac,0.851,0.8697,0.8602
+robert_nodiac,diac,0.8604,0.8783,0.8692
+robert_nodiac,nodiac,0.8607,0.8778,0.8692
